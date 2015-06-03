@@ -1,0 +1,1640 @@
+# Translation of Thus.
+# Copyright (C) 2007-2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Pamac package.
+# Philip Müller <philm@manjaro.org>, 2013-2015.
+# 
+# Translators:
+# Kokan <kokan_malenko@hotmail.com>, 2013
+# exoos <mince.lesovski@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: manjaro-thus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-04 10:30+0100\n"
+"PO-Revision-Date: 2015-01-04 09:31+0000\n"
+"Last-Translator: philm <philm@manjaro.org>\n"
+"Language-Team: Macedonian (http://www.transifex.com/projects/p/manjaro-thus/language/mk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+
+#: thus.py:123
+msgid ""
+"This installer must be run with administrative privileges and cannot "
+"continue without them."
+msgstr "Оваа инсталирачка програма мора да работи со административни привилегии и не може да продолжи без нив."
+
+#: thus.py:131
+#, python-format
+msgid ""
+"You cannot run two instances of this installer.\n"
+"\n"
+"If you are sure that another installer is not already running\n"
+"you can manually delete the file %s\n"
+"and run this installer again."
+msgstr "Не можат да работат две инсталацијски програми во исто време.\n\nАко сте сигурен дека друга инсталацијска програма не работи во моментот\nможе рачно да ја избришете датотеката %s\nи да ја вклучите инсталацијската програма повторно. "
+
+#: thus.py:143
+#, python-format
+msgid "Thus installer version %s"
+msgstr "Thus инсталер верзија %s"
+
+#: thus.py:234
+msgid "Manjaro Installer"
+msgstr "Manjaro инсталер"
+
+#: thus.py:290
+msgid "Quiting installer..."
+msgstr "Напуштање на инсталерот..."
+
+#: thus.py:411
+msgid "Sets Thus log level to 'debug'"
+msgstr "Го подесува Thus нивото на записници во 'debug'"
+
+#: thus.py:412
+msgid "Update Thus to the latest version (-uu will force the update)"
+msgstr "Ажурирај го Thus во најновата верзија (-uu за присилно ажурирање)"
+
+#: thus.py:413
+msgid "Do not perform any changes (useful for developers)"
+msgstr "Не изведувај никакви промени (корисно за програмери)"
+
+#: thus.py:414
+msgid "Show logging messages to stdout"
+msgstr "Прикажи пораки за записници во stdout"
+
+#: thus.py:415
+msgid "Show options in development (DO NOT USE THIS!)"
+msgstr "Прикажи опции во развој (НЕ ГО КОРИСТИ ОВА!)"
+
+#: src/installation/auto_partition.py:77 src/installation/auto_partition.py:86
+#: src/installation/process.py:463 src/installation/process.py:480
+#: src/installation/process.py:495
+#, python-format
+msgid "Unmounting %s"
+msgstr "Одмонтирање на %s"
+
+#: src/installation/auto_partition.py:81 src/installation/auto_partition.py:90
+#, python-format
+msgid "Unmounting %s failed. Trying lazy arg."
+msgstr "Демонтирањето %s не успеа. Се обидува со lazy arg."
+
+#: src/installation/auto_partition.py:119
+msgid "Can't delete existent LVM volumes (see below)"
+msgstr "Не може да се избришат постоечките LVM дискови (види подолу)"
+
+#: src/installation/auto_partition.py:129
+msgid "Can't close LUKS devices (see below)"
+msgstr "Не може да се затворат LUKS уредите (види подолу)"
+
+#: src/installation/auto_partition.py:184
+#, python-format
+msgid "Unknown filesystem type %s"
+msgstr ""
+
+#: src/installation/auto_partition.py:194
+#, python-format
+msgid "Can't create filesystem %s"
+msgstr "Не може да направи систем на датотеки %s"
+
+#: src/installation/auto_partition.py:353
+#, python-format
+msgid "Thus will setup LUKS on device %s"
+msgstr "Thus ќе го подеси LUKS на уредот %s"
+
+#: src/installation/auto_partition.py:429
+#, python-format
+msgid "Total disk size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:430
+#, python-format
+msgid "Boot partition size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:433
+#, python-format
+msgid "LVM physical volume size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:435
+#, python-format
+msgid "Swap partition size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:436
+#, python-format
+msgid "Root partition size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:439
+#, python-format
+msgid "Home partition size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:468
+msgid ""
+"Setup cannot detect size of your device, please use advanced installation "
+"routine for partitioning and mounting devices."
+msgstr "Подесувањето не може да ја одреди големината на твојот уред, молиме користи напредна инсталација за партиционирање и монтирање уреди."
+
+#: src/installation/auto_partition.py:601
+#, python-format
+msgid "Will setup LVM on device %s"
+msgstr "Ќе го подеси LVM на уредот %s"
+
+#: src/bootinfo.py:54 src/bootinfo.py:66 src/bootinfo.py:72 src/bootinfo.py:86
+#: src/installation/alongside.py:220
+msgid "unknown"
+msgstr "непознат"
+
+#: src/canonical/misc.py:929
+#, python-format
+msgid "Can't set locale %s"
+msgstr "Не може да се подеси локал %s"
+
+#: src/canonical/validation.py:132
+msgid "password is too short"
+msgstr "лозинката е прекратка"
+
+#: src/canonical/validation.py:135
+msgid "weak password"
+msgstr "прелесна лозинка"
+
+#: src/canonical/validation.py:138
+msgid "fair password"
+msgstr "лесна лозинка"
+
+#: src/canonical/validation.py:141
+msgid "good password"
+msgstr "добра лозинка"
+
+#: src/canonical/validation.py:144
+msgid "strong password"
+msgstr "тешка лозинка"
+
+#: src/canonical/validation.py:159
+msgid "Passwords do not match"
+msgstr "Лозинките не се совпаѓаат"
+
+#: src/check.py:79
+msgid "System Check"
+msgstr "Проверка на системот"
+
+#: src/check.py:84
+#, python-format
+msgid "has at least %dGB available storage space"
+msgstr "има најмалку %dGB слободен простор за складирање"
+
+#: src/check.py:89
+msgid ""
+"This highly depends on which desktop environment you choose, so you might "
+"need more space."
+msgstr "Ова во голема мерка зависи од која работна околина ќе ја одбереш, па можеби ќе ти треба повеќе простор."
+
+#: src/check.py:94
+msgid "is plugged in to a power source"
+msgstr "е вклучен во извор на енергија"
+
+#: src/check.py:98
+msgid "is connected to the Internet"
+msgstr "е конектиран на интернет"
+
+#: src/check.py:102
+msgid "For best results, please ensure that this computer:"
+msgstr "За најдобри резултати, ве молам уверете се дека овој компјутер:"
+
+#: src/check.py:173
+msgid "We have Internet connection."
+msgstr "Имаме интернет конекција."
+
+#: src/check.py:174
+msgid "We're connected to a power source."
+msgstr "Поврзани сме со извор на енергија."
+
+#: src/check.py:175
+msgid "We have enough disk space."
+msgstr "Имаме доволно простор на дискот."
+
+#: src/installation/advanced.py:218 src/installation/advanced.py:512
+#: src/installation/advanced.py:526
+msgid "free space"
+msgstr "слободен простор"
+
+#: src/installation/advanced.py:266
+msgid "It's not recommended to install grub in a partition"
+msgstr "Не е препорачливо да се инсталира grub во партиција"
+
+#: src/installation/advanced.py:294 src/installation/alongside.py:172
+msgid "Device"
+msgstr "Направа"
+
+#: src/installation/advanced.py:297
+msgid "Type"
+msgstr "Тип"
+
+#: src/installation/advanced.py:300
+msgid "Mount point"
+msgstr "Точка на монтирање"
+
+#: src/installation/advanced.py:303
+msgid "Label"
+msgstr "Ознака"
+
+#: src/installation/advanced.py:309 src/installation/advanced.py:1643
+msgid "Format"
+msgstr "Формат"
+
+#: src/installation/advanced.py:312
+msgid "Size"
+msgstr "Големина"
+
+#: src/installation/advanced.py:315
+msgid "Used"
+msgstr "Изкористен"
+
+#: src/installation/advanced.py:318
+msgid "Flags"
+msgstr "Знамиња"
+
+#: src/installation/advanced.py:324
+msgid "SSD"
+msgstr "SSD"
+
+#: src/installation/advanced.py:493
+msgid "none"
+msgstr "ништо"
+
+#: src/installation/advanced.py:548 src/installation/advanced.py:962
+#: src/installation/advanced.py:1501 src/installation/advanced.py:1594
+#: src/installation/advanced.py:1745 src/installation/advanced.py:1839
+msgid "extended"
+msgstr "проширен"
+
+#: src/installation/advanced.py:679 src/installation/advanced.py:932
+msgid "Can't use same mount point twice..."
+msgstr "Не може да се изкористи истата точка на монтирање два пати..."
+
+#: src/installation/advanced.py:953
+msgid "Creating primary partition"
+msgstr "Креирање на примарна партиција"
+
+#: src/installation/advanced.py:964
+msgid "Creating extended partition"
+msgstr "Креирање на проширена партиција"
+
+#: src/installation/advanced.py:970
+msgid "Creating logical partition"
+msgstr "Креирање на логичка партиција"
+
+#: src/installation/advanced.py:1104
+msgid "Advanced installation mode"
+msgstr "Напредна инсталација мод"
+
+#: src/installation/advanced.py:1108 ui/installation_advanced.ui:1157
+msgid "Use this device for boot loader installation:"
+msgstr "Користи го овој уред за инсталација на подигачот на системот:"
+
+#: src/installation/advanced.py:1113
+msgid "Mount checklist:"
+msgstr "Монт чеклиста:"
+
+#: src/installation/advanced.py:1119
+msgid "Root"
+msgstr "Рут"
+
+#: src/installation/advanced.py:1123 ui/bootloader.ui:7
+msgid "Boot"
+msgstr "Подигунување"
+
+#: src/installation/advanced.py:1127
+msgid "EFI"
+msgstr "EFI"
+
+#: src/installation/advanced.py:1131
+msgid "Swap"
+msgstr "Swap"
+
+#: src/installation/advanced.py:1139
+msgid "New partition table"
+msgstr "Нова партициска табела"
+
+#: src/installation/advanced.py:1147
+msgid "Change..."
+msgstr "Измени..."
+
+#: src/installation/advanced.py:1152 ui/installation_advanced.ui:407
+msgid "Size:"
+msgstr "Големина:"
+
+#: src/installation/advanced.py:1156 ui/installation_advanced.ui:630
+msgid "Type:"
+msgstr "Тип:"
+
+#: src/installation/advanced.py:1160 ui/installation_advanced.ui:647
+msgid "Primary"
+msgstr "Примарна"
+
+#: src/installation/advanced.py:1164 ui/installation_advanced.ui:671
+msgid "Logical"
+msgstr "Логичка"
+
+#: src/installation/advanced.py:1168 ui/installation_advanced.ui:695
+msgid "Extended"
+msgstr "Проширен"
+
+#: src/installation/advanced.py:1172 ui/installation_advanced.ui:516
+msgid "Beginning of this space"
+msgstr "Почеток на овој простор"
+
+#: src/installation/advanced.py:1176 ui/installation_advanced.ui:540
+msgid "End of this space"
+msgstr "Крај на овој простор"
+
+#: src/installation/advanced.py:1180 src/installation/advanced.py:1197
+#: ui/installation_advanced.ui:179 ui/installation_advanced.ui:438
+msgid "Use as:"
+msgstr "Користи како:"
+
+#: src/installation/advanced.py:1184 src/installation/advanced.py:1201
+#: ui/installation_advanced.ui:212 ui/installation_advanced.ui:476
+msgid "Mount point:"
+msgstr "Точка на монтирање:"
+
+#: src/installation/advanced.py:1188 src/installation/advanced.py:1205
+#: ui/installation_advanced.ui:249 ui/installation_advanced.ui:730
+msgid "Label (optional):"
+msgstr "Ознака (опционално):"
+
+#: src/installation/advanced.py:1192
+msgid "Encryption Options..."
+msgstr "Опции за криптирање..."
+
+#: src/installation/advanced.py:1209 ui/installation_advanced.ui:276
+msgid "Format:"
+msgstr "Формат:"
+
+#: src/installation/advanced.py:1214
+msgid "Partition Table Type:"
+msgstr "Тип на партициска табела:"
+
+#: src/installation/advanced.py:1219
+msgid "Create Partition Table"
+msgstr "Креирај партициска табела"
+
+#: src/installation/advanced.py:1222 src/installation/alongside.py:150
+#: src/installation/automatic.py:103
+msgid "Install now!"
+msgstr "Инсталирај сега!"
+
+#: src/installation/advanced.py:1308
+#, python-format
+msgid "Creating a new partition table of type %s for disk %s"
+msgstr "Креирање на нова партициска табела од типот %s за диск %s"
+
+#: src/installation/advanced.py:1318
+msgid ""
+"GRUB requires a BIOS Boot Partition (2 MiB, no filesystem, \"EF02\" type code in gdisk or \"bios_grub\" flag in GNU Parted) in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
+"\n"
+"Thus will create this special partition for you now."
+msgstr "GRUB бара BIOS партиција за подигање (2 MiB, без систем на датотеки, код од типот \"EF02\" во gdisk или \"bios_grub\" ознака во GNU Parted) во BIOS системите за да ја вгради својата core.img датотека поради недостаток на пост-MBR вградено место во GPT дискови.\n\nThus сега ќе ја направи специјалната партиција за тебе."
+
+#: src/installation/advanced.py:1350
+msgid "Can't create BIOS GPT Boot partition!"
+msgstr "Не може да направи BIOS GPT партиција за подигање!"
+
+#: src/installation/advanced.py:1377
+msgid "Couldn't create BIOS GPT Boot partition"
+msgstr "Не успеа да направи BIOS GPT партиција за подигање"
+
+#: src/installation/advanced.py:1540
+#, python-format
+msgid ""
+"%s is mounted as swap.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "%s е монтиран како swap.\nДа продолжите мора да биде одмонтиран.\nКликнете Yes за одмнотирање, или No за враќање\n"
+
+#: src/installation/advanced.py:1544
+#, python-format
+msgid ""
+"%s is mounted in '%s'.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "%s е монтиран во '%s'.\nЗа да продолжите мора да бе одмонтиран.\nКликнете Yes за одмнотирање, или No за враќање\n"
+
+#: src/installation/advanced.py:1567
+#, python-format
+msgid "%s shows as mounted (busy) but it has no mount point"
+msgstr "%s е прикажан како монтиран (зафатен) но нема монт точка"
+
+#: src/installation/advanced.py:1573
+msgid ""
+"The root partition is not marked to be formatted.\n"
+"This might create problems. Should it be marked to be formatted now?"
+msgstr "Рут партицијата не е штликрирана за форматирање.\nОва може да предизвика проблеми. Дали да биде штиклирана за да се форматира сега?"
+
+#: src/installation/advanced.py:1636
+#, python-format
+msgid "Partition %s will be deleted"
+msgstr "Партицијата %s ќе биде избришана"
+
+#: src/installation/advanced.py:1643
+msgid "Partition"
+msgstr "Партиција"
+
+#: src/installation/advanced.py:1643
+msgid "New"
+msgstr "Нов"
+
+#: src/installation/advanced.py:1643
+msgid "Relabel"
+msgstr "Преозначи"
+
+#: src/installation/advanced.py:1643
+msgid "Mount"
+msgstr "Монтирање"
+
+#: src/installation/advanced.py:1664
+msgid "These disks will have partition actions:"
+msgstr "На овие дискови ќе се биде извршено партиционирање:"
+
+#: src/installation/advanced.py:1724
+#, python-format
+msgid "Saving changes done in %s"
+msgstr "Зачувувањето на промените ќе биде готово за %s"
+
+#: src/installation/advanced.py:1748
+#, python-format
+msgid "Creating %s filesystem in %s labeled %s"
+msgstr "Креирање на %s систем на датотеки во %s означен како %s"
+
+#: src/installation/advanced.py:1790
+#, python-format
+msgid "Setting boot flag in %s partition"
+msgstr "Поставување на ознака за подигање во %s партицијата"
+
+#: src/installation/advanced.py:1809
+#, python-format
+msgid "Couldn't format partition '%s' with label '%s' as '%s'"
+msgstr "Не може да се форматира партицијата '%s' со ознака '%s' како '%s'"
+
+#: src/installation/advanced.py:1850 src/installation/alongside.py:499
+#: src/installation/automatic.py:226
+msgid "Thus will not install any boot loader"
+msgstr "Thus нема да инсталира ниту еден подигач на систем"
+
+#: src/installation/advanced.py:1860
+#, python-format
+msgid "Manjaro will install the bootloader of type %s in %s"
+msgstr "Manjaro ќе инсталира подигач на системот од типот %s во %s"
+
+#: src/installation/advanced.py:1876 src/installation/alongside.py:512
+#: src/installation/automatic.py:247
+msgid "Testing mode. Thus won't apply any changes to your system!"
+msgstr "Тест режим. Thus нема да направи никакви промени на твојот систем!"
+
+#: src/installation/alongside.py:115
+#, python-format
+msgid "Can't load %s css"
+msgstr "Не може да се вчитаат %s css"
+
+#: src/installation/alongside.py:142
+msgid "Choose which OS you want to install Manjaro next to"
+msgstr "Избери до кој оперативен систем сакаш да го инсталираш Manjaro"
+
+#: src/installation/alongside.py:146
+msgid "Manjaro alongside another OS"
+msgstr "Manjaro покрај друг ОС"
+
+#: src/installation/alongside.py:175
+msgid "Detected OS"
+msgstr "Детектиран ОС"
+
+#: src/installation/alongside.py:178
+msgid "Filesystem"
+msgstr "Систем со датотеки"
+
+#: src/installation/alongside.py:196
+msgid "pyparted3 not found!"
+msgstr "pyparted3 не е пронајден!"
+
+#: src/installation/alongside.py:224
+msgid "Unable to create list of partitions for alongside installation."
+msgstr "Не може да се креира листа на партиции за инсталација покрај друг ОС."
+
+#: src/installation/alongside.py:268
+msgid "Can't shrink the partition (maybe it's nearly full?)"
+msgstr "Не може да се смали партицијата (можеби е скоро полна?)"
+
+#: src/installation/alongside.py:356
+msgid "There are too many primary partitions, can't create a new one"
+msgstr "Има премногу примарни партиции, не може да направи нова"
+
+#: src/installation/alongside.py:390
+#, python-format
+msgid "Can't shrink %s(%s) filesystem"
+msgstr "Не може да го смали %s(%s) системот со датотеки"
+
+#: src/installation/alongside.py:399
+#, python-format
+msgid "Can't shrink %s(%s) partition"
+msgstr ""
+
+#: src/installation/alongside.py:418 src/installation/alongside.py:470
+msgid "Cannot create new partition."
+msgstr ""
+
+#: src/installation/alongside.py:458
+msgid "Cannot create new swap partition."
+msgstr ""
+
+#: src/installation/alongside.py:495 src/installation/automatic.py:222
+#, python-format
+msgid "Thus will install the bootloader of type %s in %s"
+msgstr " Thus ќе инсталира подигач на системот од типот %s во %s"
+
+#: src/installation/ask.py:99
+msgid "Installation type"
+msgstr "Тип на инсталација"
+
+#: src/installation/ask.py:113 ui/installation_ask.ui:34
+msgid "Erase disk and install Manjaro (automatic)"
+msgstr "Избриши го дискот и инсталирај Manjaro (автоматски)"
+
+#: src/installation/ask.py:116
+msgid "Warning: This will delete all data on your disk"
+msgstr "Предупредување: Ова ќе ги избрише сите податоци на твојот диск"
+
+#: src/installation/ask.py:122
+msgid "Encrypt this installation for increased security."
+msgstr "Шифрирај ја оваа инсталација за зголемена безбедност."
+
+#: src/installation/ask.py:126
+msgid "You will be asked for the encryption key in the next step."
+msgstr "Ќе бидеш прашан за клуч за шифрирање во следниот чекор."
+
+#: src/installation/ask.py:131
+msgid "Use LVM with this installation."
+msgstr "Користи LVM со оваа инсталација."
+
+#: src/installation/ask.py:135
+msgid ""
+"This will set up LVM allowing you to make snapshots and change partition "
+"sizes in a straightforward way."
+msgstr "Ова ќе го подеси LVM дозволувајќи ти да направиш слики од екранот и да ја промениш големината на партициите на едноставен начин."
+
+#: src/installation/ask.py:140 ui/installation_ask.ui:134
+msgid "Set your Home in a different partition/volume"
+msgstr "Постави го твојот почетен директориум во друга партиција/диск "
+
+#: src/installation/ask.py:144
+msgid ""
+"This will setup your /home directory in a different partition or volume."
+msgstr "Ова ќе го постави го твојот /почетен директориум во друга партиција или диск."
+
+#: src/installation/ask.py:152 src/installation/ask.py:154
+#, python-format
+msgid "Install Manjaro alongside %s"
+msgstr "Инсталирај го Manjaro наспроти %s"
+
+#: src/installation/ask.py:161
+msgid "Manage your partitions and where to install Manjaro (advanced)"
+msgstr "Уреди ги твоите партиции и каде да се инсталира Manjaro (напредно)"
+
+#: src/installation/ask.py:164
+msgid ""
+"You will be able to create/delete partitions, choose where to install "
+"Manjaro and also choose additional mount points."
+msgstr "Ќе можете да креирате/бришете партиции, изберете каде да се инсталира Manjaro и исто така да изберете додатни точки на монтирање."
+
+#: src/installation/ask.py:190
+msgid "Manjaro installation will be encrypted using LUKS"
+msgstr "Manjaro инсталацијата ќе биде енкриптирана користејќи LUKS"
+
+#: src/installation/ask.py:193
+msgid "Manjaro will be installed using LVM volumes"
+msgstr "Manjaro ќе биде инсталиран со користење на LVM дискови"
+
+#: src/installation/ask.py:195
+msgid "Manjaro will be installed using a separate /home volume."
+msgstr "Manjaro ќе биде инсталиран користејќи посебен /диск за почетниот директориум."
+
+#: src/installation/ask.py:197
+msgid "Manjaro will be installed using a separate /home partition."
+msgstr "Manjaro ќе биде инсталиран користејќи посебна /партиција за почетниот директориум."
+
+#: src/installation/automatic.py:75
+msgid "Automatic installation mode"
+msgstr "Автоматски режим на инсталација"
+
+#: src/installation/automatic.py:79 ui/installation_automatic.ui:96
+msgid "Select drive:"
+msgstr "Одбери диск:"
+
+#: src/installation/automatic.py:83
+msgid ""
+"WARNING! This installation mode will overwrite everything on your drive!"
+msgstr "ПРЕДУПРЕДУВАЊЕ! Овој режим на инсталација ќе пребрише се на твојот уред! "
+
+#: src/installation/automatic.py:88 ui/installation_automatic.ui:59
+msgid ""
+"Please choose the drive where you want to install Manjaro\n"
+"and click the button below to start the process."
+msgstr "Молиме одбери го дискот каде сакаш да го инсталираш Manjaro\nи кликни на копчето подолу да започне процесот."
+
+#: src/installation/automatic.py:93 ui/installation_automatic.ui:176
+msgid "Encryption Password:"
+msgstr "Енкрипциска лозинка:"
+
+#: src/installation/automatic.py:97 src/user_info.py:124
+#: ui/installation_automatic.ui:161 ui/user_info.ui:80
+msgid "Confirm your password:"
+msgstr "Потврдете ја вашата лозинка:"
+
+#: src/installation/automatic.py:101 src/user_info.py:177
+#: ui/installation_automatic.ui:258 ui/user_info.ui:422
+msgid "Show password"
+msgstr "Прикажи ја лозинката"
+
+#: src/installation/automatic.py:164
+msgid "A LUKS password has been set"
+msgstr "LUKS лозинката е подесена"
+
+#: src/installation/automatic.py:166
+#, python-format
+msgid "Automatic install on %s"
+msgstr "Автоматско инсталирање на %s"
+
+#: src/installation/automatic.py:199
+#, python-format
+msgid ""
+"Do you really want to proceed and delete all your content on your hard drive?\n"
+"\n"
+"%s"
+msgstr "Дали навистина сакаш да продолжиш и да ја избришеш сета содржина на хард дискот?\n\n%s"
+
+#: src/installation/automatic.py:211
+#, python-format
+msgid "Thus will use %s as installation device"
+msgstr "Thus ќе го користи %s како инсталацијски уред"
+
+#: src/installation/process.py:107
+#, python-format
+msgid "Copying '/%s'"
+msgstr "Копирање '/%s'"
+
+#: src/installation/process.py:188
+#, python-format
+msgid "Installing using the '%s' method"
+msgstr "Инсталирање користејќи го '%s' методот"
+
+#: src/installation/process.py:265
+#, python-format
+msgid "Creating partitions and their filesystems in %s"
+msgstr "Креирање партиции и нивните системи со датотеки во %s"
+
+#: src/installation/process.py:286
+msgid "Error creating partitions and their filesystems"
+msgstr "Грешка при креирање на партиции и нивните системи со датотеки"
+
+#: src/installation/process.py:288 src/installation/process.py:361
+#: src/installation/process.py:373 src/installation/process.py:671
+#, python-format
+msgid "Command %s has failed."
+msgstr "Командата %s не успеа."
+
+#: src/installation/process.py:290 src/installation/process.py:337
+#: src/installation/process.py:363 src/installation/process.py:375
+#: src/installation/process.py:398 src/installation/process.py:673
+#, python-format
+msgid "Output : %s"
+msgstr "Излез : %s"
+
+#: src/installation/process.py:323 src/installation/process.py:354
+#, python-format
+msgid "Mounting partition %s into %s directory"
+msgstr "Монтирање на партицијата %s во %s директориумот "
+
+#: src/installation/process.py:329
+#, python-format
+msgid "Mounting partition %s into %s/boot directory"
+msgstr "Монтирање на партицијата %s во %s директориумот за подигање"
+
+#: src/installation/process.py:333
+msgid "Couldn't mount root and boot partitions"
+msgstr "Не може да се монтираат рут и партицијата за подигање"
+
+#: src/installation/process.py:335 src/installation/process.py:396
+#, python-format
+msgid "Command %s has failed"
+msgstr "Командата %s не успеа"
+
+#: src/installation/process.py:359
+#, python-format
+msgid "Can't mount %s in %s"
+msgstr "Не може да се монтира %s во %s"
+
+#: src/installation/process.py:367
+#, python-format
+msgid "Mounting swap %s"
+msgstr ""
+
+#: src/installation/process.py:371
+#, python-format
+msgid "Can't mount %s"
+msgstr ""
+
+#: src/installation/process.py:386
+#, python-format
+msgid "%s deleted"
+msgstr "%s избришан"
+
+#: src/installation/process.py:394
+msgid "Can't create necessary directories on destination system"
+msgstr "Не може да се креираат неопходните директориуми во одредишниот систем"
+
+#: src/installation/process.py:406
+msgid "Install System ..."
+msgstr "Системот се инсталира..."
+
+#: src/installation/process.py:411
+msgid "System installed."
+msgstr "Системот е инсталиран."
+
+#: src/installation/process.py:413
+msgid "Configuring system ..."
+msgstr "Системот се конфигурира..."
+
+#: src/installation/process.py:415
+msgid "System configured."
+msgstr "Системот е конфигуриран."
+
+#: src/installation/process.py:419
+msgid "Installing boot loader ..."
+msgstr "Инсталирање на подигачот на системот ..."
+
+#: src/installation/process.py:452
+#, python-format
+msgid "Can't copy Thus log to %s"
+msgstr "Не може да се копира Thus записникот во %s"
+
+#: src/installation/process.py:471 src/installation/process.py:490
+#: src/installation/process.py:504
+#, python-format
+msgid "Can't unmount %s"
+msgstr "Не може да се демонтира %s"
+
+#: src/installation/process.py:506
+msgid "Installation finished successfully."
+msgstr "Инсталирањето заврши успешно."
+
+#: src/installation/process.py:542
+msgid "Base filesystem does not exist! Critical error (exiting)."
+msgstr "Основниот систем на датотеки не постои! Критична грешка (излез)."
+
+#: src/installation/process.py:546
+msgid "Desktop filesystem does not exist! Critical error (exiting)."
+msgstr "Системот со датотеки на работната површина не постои (излез)."
+
+#: src/installation/process.py:556 src/installation/process.py:562
+#, python-format
+msgid "%s is already mounted at %s as %s"
+msgstr "%s е веќе монтирана во %s како %s"
+
+#: src/installation/process.py:573
+msgid "Indexing files to be copied ..."
+msgstr "Датотеките за индексирање ќе се копираат..."
+
+#: src/installation/process.py:578
+msgid "Extracting root-image ..."
+msgstr "Отпакување на root-image ..."
+
+#: src/installation/process.py:588
+msgid "Extracting desktop-image ..."
+msgstr "Отпакување на desktop-image ..."
+
+#: src/installation/process.py:603
+#, python-format
+msgid "Restoring meta-information on %s"
+msgstr "Враќање на meta-информацијата на %s"
+
+#: src/installation/process.py:619
+msgid "Special dirs already mounted."
+msgstr "Специјалните директориуми веќе се монтирани."
+
+#: src/installation/process.py:653
+msgid "Special dirs are not mounted. Skipping."
+msgstr "Специјалните директориуми не се монтирани. Прескокнување."
+
+#: src/installation/process.py:670 src/installation/process.py:676
+#, python-format
+msgid "Unable to umount %s"
+msgstr "Не може да се демонтира %s"
+
+#: src/installation/process.py:698
+#, python-format
+msgid "Error running command: %s"
+msgstr "Грешка при извршување на командата: %s"
+
+#: src/installation/process.py:701
+#, python-format
+msgid "Timeout running command: %s"
+msgstr ""
+
+#: src/installation/process.py:734
+msgid "Can't copy network configuration files"
+msgstr "Не може да се копираат датотеките за конфигурација на мрежата"
+
+#: src/installation/process.py:764 src/installation/process.py:825
+#, python-format
+msgid "Added to fstab : UUID=%s %s %s %s 0 %s"
+msgstr "Додадено на fstab : UUID=%s %s %s %s 0 %s"
+
+#: src/installation/process.py:778
+#, python-format
+msgid "Added to crypttab : %s"
+msgstr "Додаден во crypttab : %s"
+
+#: src/installation/process.py:782
+#, python-format
+msgid "Added to fstab : /dev/mapper/cryptManjaroHome %s %s %s 0 %s"
+msgstr "Додаден во fstab : /dev/mapper/cryptManjaroHome %s %s %s 0 %s"
+
+#: src/installation/process.py:829
+msgid "Added to fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
+msgstr "Додаден во fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
+
+#: src/installation/process.py:933
+msgid "ERROR on preparing 'etc/grub.d'-folder."
+msgstr ""
+
+#: src/installation/process.py:941
+#, python-format
+msgid "Installing GRUB(2) BIOS boot loader in %s"
+msgstr "Инсталирање на GRUB(2) BIOS подигачот на системот во %s"
+
+#: src/installation/process.py:961 src/installation/process.py:1049
+msgid ""
+"grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
+" continue."
+msgstr ""
+
+#: src/installation/process.py:969
+msgid "GRUB(2) BIOS has been successfully installed."
+msgstr "GRUB(2) BIOS е успешно инсталиран."
+
+#: src/installation/process.py:972
+msgid "ERROR installing GRUB(2) BIOS."
+msgstr "ГРЕШКА при инсталирање на GRUB(2) BIOS."
+
+#: src/installation/process.py:989
+#, python-format
+msgid "Installing GRUB(2) UEFI %s boot loader"
+msgstr "Инсталирање на GRUB(2) UEFI %s подигачот на системот"
+
+#: src/installation/process.py:1002
+msgid "Installing Grub2 locales."
+msgstr "Инсталирање на Grub2 локали."
+
+#: src/installation/process.py:1015
+#, python-format
+msgid "No OEM loader found in %s. Copying Grub(2) into dir."
+msgstr "Не е пронајден OEM подигач во %s. Копирање на Grub(2) во директориумот."
+
+#: src/installation/process.py:1020
+msgid "Copying Grub(2) into OEM dir failed. File Not Found."
+msgstr "Копирањето на Grub(2) во OEM директориумот не успеа. Датотеката не е пронајдена."
+
+#: src/installation/process.py:1022
+msgid "Copying Grub(2) into OEM dir failed. File Exists."
+msgstr "Копирањето на Grub(2) во OEM директориумот не успеа. Датотеката постои."
+
+#: src/installation/process.py:1024
+msgid "Copying Grub(2) into OEM dir failed. Unknown Error."
+msgstr "Копирањето на Grub(2) во OEM директориумот не успеа. Непозната грешка."
+
+#: src/installation/process.py:1042
+msgid "Generating grub.cfg"
+msgstr "Генерирање grub.cfg"
+
+#: src/installation/process.py:1057
+msgid "GRUB(2) UEFI has been successfully installed."
+msgstr ""
+
+#: src/installation/process.py:1060
+msgid "ERROR installing GRUB(2) UEFI."
+msgstr "ГРЕШКА при инсталирање на GRUB(2) UEFI."
+
+#: src/installation/process.py:1075
+msgid "ERROR installing GRUB(2) locale."
+msgstr "ГРЕШКА при инсталирање на GRUB(2) локал."
+
+#: src/installation/process.py:1109
+msgid "Can't freeze/unfreeze xfs system"
+msgstr ""
+
+#: src/installation/process.py:1115
+#, python-format
+msgid "Enabled %s service."
+msgstr "Овозможен %s сервисот."
+
+#: src/installation/process.py:1121
+#, python-format
+msgid "Enabled %s target."
+msgstr ""
+
+#: src/installation/process.py:1128
+#, python-format
+msgid "Error creating password hash for user %s"
+msgstr "Грешка при креирање хаш за лозинката за корисникот %s "
+
+#: src/installation/process.py:1134
+#, python-format
+msgid "Error changing password for user %s"
+msgstr "Грешка при менување на лозинката на корисникот %s"
+
+#: src/installation/process.py:1146
+msgid "Setting hooks and modules in mkinitcpio.conf"
+msgstr "Куките и модулите за подесувањето во mkinitcpio.conf"
+
+#: src/installation/process.py:1244
+#, python-format
+msgid "%s: Enable automatic login for user %s."
+msgstr "%s: Овозможи автоматска пријава за корисникот %s"
+
+#: src/installation/process.py:1362 src/installation/process.py:1373
+msgid "Configuring your new system"
+msgstr "Конфигурирање на вашиот нов систем"
+
+#: src/installation/process.py:1365
+msgid "fstab file generated."
+msgstr "fstab фајлот е генериран."
+
+#: src/installation/process.py:1371
+msgid "Network configuration copied."
+msgstr "Мрежната конфигурација е копирана."
+
+#: src/installation/process.py:1400
+msgid "Time zone set."
+msgstr "Временската зона е наместена."
+
+#: src/installation/process.py:1421
+#, python-format
+msgid "Sudo configuration for user %s done."
+msgstr "Судо конфигурацијата за корисникот %s е готова."
+
+#: src/installation/process.py:1431
+#, python-format
+msgid "User %s added."
+msgstr "Корисникот %s е додаден."
+
+#: src/installation/process.py:1443
+#, python-format
+msgid "Hostname  %s set."
+msgstr "Хост името %s е подесено. "
+
+#: src/installation/process.py:1448
+msgid "Set root password."
+msgstr "Постави рут лозинка."
+
+#: src/installation/process.py:1451
+msgid "Set the same password to root."
+msgstr "Постави ја истата лозинка за рут."
+
+#: src/installation/process.py:1457
+msgid "Generating locales ..."
+msgstr "Генерирање локали ..."
+
+#: src/installation/process.py:1475
+msgid "Adjusting hardware clock ..."
+msgstr "Местење на хардверскиот часовник ..."
+
+#: src/installation/process.py:1484
+msgid "Configuring hardware ..."
+msgstr "Конфигурирање на хардверот ..."
+
+#: src/installation/process.py:1557
+msgid "Installing drivers ..."
+msgstr ""
+
+#: src/installation/process.py:1564
+msgid "Can't execute the MHWD script"
+msgstr "Не може да се изврши MHWD скриптата "
+
+#: src/installation/process.py:1577
+msgid "Configure display manager ..."
+msgstr "Подесување на управувачот со екранот ..."
+
+#: src/installation/process.py:1659
+msgid "Configure System ..."
+msgstr "Системот се конфигурира ..."
+
+#: src/installation/process.py:1688
+msgid "Removing live configuration (packages)"
+msgstr "Отстранување на инсталацијската-live конфигурација (пакети)"
+
+#: src/installation/process.py:1704
+msgid "Configuring package manager"
+msgstr "Подесување на управувачот со пакети"
+
+#: src/installation/process.py:1716
+msgid "Finished configuring package manager."
+msgstr "Подесувањето на управувачот со пакети е завршено."
+
+#: src/installation/process.py:1740
+msgid "Running mkinitcpio ..."
+msgstr "Извршување mkinitcpio ..."
+
+#: src/installation/process.py:1743
+msgid "Running mkinitcpio - done"
+msgstr "Извршувањето mkinitcpio - завршено"
+
+#: src/installation/process.py:1759
+msgid "Encrypting user home dir ..."
+msgstr "Шифрирање на корисничкиот почетен директориум ..."
+
+#: src/installation/process.py:1761
+msgid "User home dir encrypted"
+msgstr "Корисничкиот почетен директориум е шифриран"
+
+#: src/keymap.py:67
+msgid "Select your keyboard layout"
+msgstr "Изберете го распоредот на вашата тастатура"
+
+#: src/keymap.py:71
+msgid "Type here to test your keyboard"
+msgstr "Пишувај тука за да ја тестираш тастатурата"
+
+#: src/keymap.py:78
+msgid "Layouts"
+msgstr "Распореди"
+
+#: src/keymap.py:84
+msgid "Variants"
+msgstr "Варијанти"
+
+#: src/keymap.py:103
+#, python-format
+msgid "keyboard_layout is %s"
+msgstr "keyboard_layout е %s"
+
+#: src/language.py:78
+msgid "Please choose your language:"
+msgstr "Ве молам изберето го вашиот јазик:"
+
+#: src/language.py:83
+msgid "Notice: The Thus Installer is beta software."
+msgstr "Забелешка: Thus инсталацијската програма е бета софтвер."
+
+#: src/language.py:84
+msgid ""
+"Thus is pre-release beta software that is under active development. \n"
+"It does not yet properly handle RAID, btrfs subvolumes, or other  \n"
+"advanced setups. Please proceed with caution as data loss is possible! \n"
+"\n"
+"If you find any bugs, please report them at <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
+msgstr "Thus е бета софтвер во пред издание кој е во активен развој.\nСеуште не се справува добро со RAID, btrfs субволумени и други напредни подесувања. Молиме продолжете со внимание бидејќи е можно губење на податоци.\n\nАко пронајдете некоја грешка ве молиме пријавете ги на <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a> "
+
+#: src/language.py:91
+msgid "Welcome to Manjaro!"
+msgstr "Добредојде во Manjaro!"
+
+#: src/language.py:108
+msgid "Languages"
+msgstr "Јазици"
+
+#: src/language.py:128
+#, python-format
+msgid "Can't find translation file for the %s language"
+msgstr "Не може да се најде превод за %s јазик"
+
+#: src/location.py:64
+msgid "Select your location"
+msgstr "Избери ја твојата локација"
+
+#: src/location.py:68
+msgid ""
+"The selected location will be used to help select the system locale.\n"
+"Normally this should be the country where you live.\n"
+"This is a shortlist of locations based on the language you selected."
+msgstr "Одбраната локација ќе се користи за помош при избирање на системскиот локал.\nВообичаено ова треба да биде земјата во која живееш.\nОва е кратка листа на локации базирана на јазикот кој го избра."
+
+#: src/location.py:73
+msgid "Country, territory or area:"
+msgstr "Држава, територија или област:"
+
+#: src/parted3/fs_module.py:148
+#, python-format
+msgid "Can't verify if %s is a Solid State Drive or not"
+msgstr "Не може да потврди дали %s е Solid State хард диск или не"
+
+#: src/parted3/fs_module.py:173
+#, python-format
+msgid "Sorry but filesystem %s can't be resized"
+msgstr "Извини но не може да се промени големината на системот со датотеки %s"
+
+#: src/parted3/lvm.py:75
+#, python-format
+msgid "Can't remove logical volume %s"
+msgstr "Не може да се отстрани логичкиот диск %s"
+
+#: src/parted3/lvm.py:93
+#, python-format
+msgid "Can't remove volume group %s"
+msgstr "Не може да се отстрани групата дискови %s"
+
+#: src/parted3/lvm.py:105
+#, python-format
+msgid "Can't remove physical volume %s"
+msgstr "Не може да се отстрани физичкиот диск %s"
+
+#: src/parted3/partition_module.py:106
+#, python-format
+msgid "Adding %s to disk_dic"
+msgstr ""
+
+#: src/parted3/partition_module.py:108
+#, python-format
+msgid "Unrecognised disk label in device %s."
+msgstr "Непозната ознака на диск во уредот %s."
+
+#: src/parted3/partition_module.py:112
+#, python-format
+msgid ""
+"Exception: %s.\n"
+"For more information take a look at /tmp/thus.log"
+msgstr "Исклучено: %s.\nЗа повеќе информации погледнете во /tmp/thus.log"
+
+#: src/parted3/partition_module.py:179
+#, python-format
+msgid "Can't delete partition %s"
+msgstr "Не може да се избрише партицијата %s"
+
+#: src/parted3/partition_module.py:230
+msgid "Partition is too large!"
+msgstr "Партицијата е преголема!"
+
+#: src/parted3/partition_module.py:290
+#, python-format
+msgid "Can't detect used space from %s"
+msgstr "Не може да пронајде искористен простор од %s"
+
+#: src/parted3/used_space.py:39
+#, python-format
+msgid "Can't detect used space of NTFS partition %s"
+msgstr "Не може да пронајде искористен простор од NTFS партицијата %s"
+
+#: src/parted3/used_space.py:65
+#, python-format
+msgid "Can't detect used space of EXTFS partition %s"
+msgstr "Не може да пронајде искористен простор од EXTFS партицијата %s"
+
+#: src/parted3/used_space.py:94
+#, python-format
+msgid "Can't detect used space of FAT partition %s"
+msgstr "Не може да пронајде искористен простор од FAT партицијата %s"
+
+#: src/parted3/used_space.py:125
+#, python-format
+msgid "Can't detect used space of JFS partition %s"
+msgstr "Не може да пронајде искористен простор од JFS партицијата %s"
+
+#: src/parted3/used_space.py:149
+#, python-format
+msgid "Can't detect used space of REISERFS partition %s"
+msgstr "Не може да пронајде искористен простор од REISERFS партицијата %s"
+
+#: src/parted3/used_space.py:175
+#, python-format
+msgid "Can't detect used space of BTRFS partition %s"
+msgstr "Не може да пронајде искористен простор од BTRFS партицијата %s"
+
+#: src/parted3/used_space.py:212
+#, python-format
+msgid "Can't detect used space of XFS partition %s"
+msgstr "Не може да пронајде искористен простор од XFS партицијата %s"
+
+#: src/rank_mirrors.py:54
+msgid "Can't find rank mirrors script"
+msgstr "Не може да најде ранг мирор скрипта"
+
+#: src/rank_mirrors.py:61
+msgid "Couldn't execute auto mirroring selection"
+msgstr "Не може да се изврши авто мирор селекција"
+
+#: src/show_message.py:53
+msgid "Manjaro Installer - Error"
+msgstr "Manjaro инсталер - Грешка"
+
+#: src/show_message.py:65
+msgid "Manjaro Installer - Warning"
+msgstr "Manjaro инсталер - Предупредување"
+
+#: src/show_message.py:77
+msgid "Manjaro Installer - Information"
+msgstr "Manjaro инсталер - Информација"
+
+#: src/show_message.py:88
+msgid "Manjaro Installer - Confirmation"
+msgstr ""
+
+#: src/slides.py:94 src/slides.py:109
+msgid ""
+"Installation finished!\n"
+"Do you want to restart your system now?"
+msgstr "Инсталирањето заврши!\nДали сакате да го рестартирате вашиот систем?"
+
+#: src/slides.py:102
+msgid "Installing Manjaro..."
+msgstr "Инсталирање на Manjaro..."
+
+#: src/slides.py:107
+msgid "Please wait..."
+msgstr "Ве молам почекајте..."
+
+#: src/slides.py:197
+msgid ""
+"IMPORTANT: There may have been a problem with the Grub(2) bootloader\n"
+"installation which could prevent your system from booting properly. Before\n"
+"rebooting, you may want to verify whether or not GRUB(2) is installed and\n"
+"configured. The Arch Linux Wiki contains troubleshooting information:\n"
+"\thttps://wiki.archlinux.org/index.php/GRUB\n"
+"\n"
+"Would you like to view the wiki page now?"
+msgstr "ВАЖНО: Можеби има проблем со инсталацијата на Grub(2) подигачот на системот\nшто може да спречи твојот систем да се подигне правилно. Пред рестартирање,\nможеби ќе сакаш да провериш дали Grub(2) е правилно инсталиран и подесен.\nArch Linux Wiki содржи корисни информации:\nhttps://wiki.archlinux.org/index.php/GRUB\n\nДали сакаш да ја разгледаш wiki страната сега?"
+
+#: src/slides.py:234
+msgid "Do you want to retry?"
+msgstr "Дали сакате да се обидете повторно?"
+
+#: src/timezone.py:111
+msgid "Where are you?"
+msgstr "Каде си?"
+
+#: src/timezone.py:116 ui/timezone.ui:35
+msgid "Zone:"
+msgstr "Зона:"
+
+#: src/timezone.py:120 ui/timezone.ui:78
+msgid "Region:"
+msgstr "Регион:"
+
+#: src/timezone.py:124 ui/timezone.ui:104
+msgid "Use Network Time Protocol for clock synchronization:"
+msgstr "Користи мрежен протокол за време за синхронизација на часовникот:"
+
+#: src/timezone.py:135
+#, python-format
+msgid "location changed to : %s"
+msgstr "локацијата е изменета во : %s"
+
+#: src/timezone.py:223
+msgid "Can't autodetect timezone coordinates"
+msgstr "Координатите на временската зона не можат да бидат автоматски детектирани"
+
+#: src/timezone.py:283
+msgid "Stopping timezone threads..."
+msgstr "Стопирање на временските зони..."
+
+#: src/timezone.py:397
+msgid "Can't get the country code used to create a pacman mirrorlist"
+msgstr "Не може да се добие кодот на земјата кој се користи за создавање pacman мирор листа"
+
+#: src/user_info.py:92 ui/user_info.ui:35
+msgid "Your name:"
+msgstr "Вашето име:"
+
+#: src/user_info.py:96 ui/user_info.ui:206
+msgid "Your name"
+msgstr "Вашето име:"
+
+#: src/user_info.py:100 ui/user_info.ui:328
+msgid "Hostname"
+msgstr "Име на серверот"
+
+#: src/user_info.py:104 ui/user_info.ui:405
+msgid "Your computer's name:"
+msgstr "Името на вашиот компјутер:"
+
+#: src/user_info.py:108 ui/user_info.ui:50
+msgid "Pick a username:"
+msgstr "Изберете корисничко име:"
+
+#: src/user_info.py:112 ui/user_info.ui:250
+msgid "Username"
+msgstr "Корисничко име"
+
+#: src/user_info.py:116 ui/user_info.ui:65
+msgid "Choose a password:"
+msgstr "Изберете лозинка:"
+
+#: src/user_info.py:120 src/user_info.py:136 ui/user_info.ui:103
+#: ui/user_info.ui:573
+msgid "Password"
+msgstr "Лозинка"
+
+#: src/user_info.py:128 src/user_info.py:144 ui/user_info.ui:149
+#: ui/user_info.ui:634
+msgid "Confirm password"
+msgstr "Потврдете ја лозинката"
+
+#: src/user_info.py:132 ui/user_info.ui:611
+msgid "Choose a root password:"
+msgstr "Одбери рут лозинка:"
+
+#: src/user_info.py:140 ui/user_info.ui:684
+msgid "Confirm root password:"
+msgstr "Потврди ја рут лозинката:"
+
+#: src/user_info.py:148
+msgid "Its name as it appears to other computers."
+msgstr "Неговото име како што се прикажува на други компјутери."
+
+#: src/user_info.py:152
+msgid "You must enter a name"
+msgstr "Морате да внесете име"
+
+#: src/user_info.py:156
+msgid "You must enter a username"
+msgstr "Морате да внесете корисничко име"
+
+#: src/user_info.py:160 src/user_info.py:164
+msgid "You must enter a password"
+msgstr "Морате да внесете лозинка"
+
+#: src/user_info.py:168 ui/user_info.ui:473
+msgid "Log in automatically"
+msgstr "Најави се автоматски"
+
+#: src/user_info.py:169 ui/user_info.ui:490
+msgid "A password is required to log in"
+msgstr "Потребна е лозинка за да се најавиш"
+
+#: src/user_info.py:170 ui/user_info.ui:518
+msgid "Encrypt home folder"
+msgstr "Шифрирај ја почетната папка"
+
+#: src/user_info.py:172
+msgid "Who are you?"
+msgstr "Кој сте вие?"
+
+#: src/user_info.py:180 ui/user_info.ui:544
+msgid "Show root password"
+msgstr "Прикажи ја рут лозинката"
+
+#: src/user_info.py:183 ui/user_info.ui:439
+msgid "Use a root password"
+msgstr "Користи рут лозинка"
+
+#: src/user_info.py:252
+msgid ""
+"Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
+"\n"
+msgstr "Manjaro ќе го користи eCryptfs за шифрирање на твојот почетен директориум. За жал eCryptfs не се справува добро со спарс датотеки.\n\n"
+
+#: src/user_info.py:253
+msgid ""
+"Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
+"\n"
+msgstr "Не се грижете, за најголем дел цели и намери овој недостаток не претставува проблем.\n\n"
+
+#: src/user_info.py:254
+msgid ""
+"Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
+"\n"
+msgstr "Во секој случај, една популарна и непрепорачлива примена на eCryptfs е да ја шифрира локацијата за превземање на BitTorrent а ова често бара eCryptfs да се справува со спар датотеки од 10 GB и повеќе што може да доведе до значителна старвација на дискот.\n\n"
+
+#: src/user_info.py:255
+msgid ""
+"A simple workaround is to place sparse files in an unencrypted .Public directory\n"
+"\n"
+msgstr "Едноставно решение е да се ставаат спарс датотеките во нешифриран .Јавен директориум\n\n"
+
+#: src/user_info.py:256
+msgid ""
+"Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
+"\n"
+msgstr "Погледнете на https://wiki.archlinux.org/index.php/ECryptfs за детални информации\n\n"
+
+#: src/user_info.py:257
+msgid "Are you sure you want to encrypt your home directory?\n"
+msgstr "Дали сте сигурни дека сакате да го енкриптирате вашиот home директориум?\n"
+
+#: src/user_info.py:345
+msgid "Invalid characters entered"
+msgstr "Внесени се недозволени симболи"
+
+#: src/user_info.py:349
+msgid "Username can't contain dots"
+msgstr "Корисничкото име не може да содржи точки"
+
+#: src/user_info.py:353
+msgid "Too many characters"
+msgstr "Премногу симболи"
+
+#: ui/bootloader.ui:69
+msgid "What is your boot system type?"
+msgstr "Каков е вашиот тип на boot систем?"
+
+#: ui/bootloader.ui:98
+msgid "BIOS (common)"
+msgstr "BIOS (често)"
+
+#: ui/bootloader.ui:120
+msgid "x86_64 UEFI"
+msgstr "x86_64 UEFI"
+
+#: ui/bootloader.ui:142
+msgid "i386 UEFI"
+msgstr "i386 UEFI"
+
+#: ui/bootloader.ui:169
+msgid "Choose 'Cancel' if you don't want to install a boot loader"
+msgstr "Избери 'Откажи' ако не сакате да инсталирате подигач на систем"
+
+#: ui/check.ui:29
+msgid ""
+"<span weight=\"bold\" size=\"large\">For best results, please ensure that "
+"this computer:</span>"
+msgstr "<span weight=\"bold\" size=\"large\">За најдобри резултати, ве молам уверете се дека овој компјутер:</span>"
+
+#: ui/check.ui:108
+msgid ""
+"(*) This highly depends on which desktop environment you choose, so you "
+"might need more space."
+msgstr "(*) Ова во голема мерка зависи од која работна околина ќе ја одбереш, па можеби ќе ти треба повеќе простор."
+
+#: ui/installation_advanced.ui:84
+msgid "Partition table type:"
+msgstr "Тип на партициска табела:"
+
+#: ui/installation_advanced.ui:155
+msgid "Edit partition"
+msgstr "Уреди ја партицијата"
+
+#: ui/installation_advanced.ui:317 ui/installation_advanced.ui:774
+msgid "Encryption options..."
+msgstr "Опции за енкрипција..."
+
+#: ui/installation_advanced.ui:383
+msgid "Create partition"
+msgstr "Креирај партиција"
+
+#: ui/installation_advanced.ui:423
+msgid "Location:"
+msgstr "Локација:"
+
+#: ui/installation_advanced.ui:607
+msgid "MB"
+msgstr "MB"
+
+#: ui/installation_advanced.ui:895
+msgid "New Partition Table"
+msgstr "Нова партициска табела"
+
+#: ui/installation_advanced.ui:948
+msgid "Mount Checklist:"
+msgstr "Монт чеклиста:"
+
+#: ui/installation_advanced.ui:1103
+msgid "LVM..."
+msgstr "LVM..."
+
+#: ui/installation_advanced.ui:1256
+msgid "LUKS volume name:"
+msgstr "Име на LUKS дискот:"
+
+#: ui/installation_advanced.ui:1270
+msgid "Password:"
+msgstr "Лозинка:"
+
+#: ui/installation_advanced.ui:1284
+msgid "Confirm password:"
+msgstr "Потврди ја лозинката:"
+
+#: ui/installation_advanced.ui:1313
+msgid "Use LUKS encryption: "
+msgstr "Користи LUKS шифрирање:"
+
+#: ui/installation_alongside.ui:16
+msgid ""
+"<span size=\"large\">Choose which OS you want to install Manjaro next "
+"to</span>"
+msgstr "<span size=\"large\">Избери покрај кој оперативен систем сакаш да го инсталираш Manjaro</span>"
+
+#: ui/installation_alongside.ui:90
+msgid "Choose the new size"
+msgstr "Изберете ја новата големина"
+
+#: ui/installation_alongside.ui:157
+msgid "Other OS"
+msgstr "Друг ОС"
+
+#: ui/installation_alongside.ui:169
+msgid "Manjaro"
+msgstr "Manjaro"
+
+#: ui/installation_alongside.ui:193 ui/installation_alongside.ui:205
+#: ui/slides.ui:74
+msgid "label"
+msgstr "ознака"
+
+#: ui/installation_ask.ui:58
+msgid ""
+"<span weight=\"light\" size=\"small\">Warning: This will delete all "
+"programs, documents, photos, music and any other files on your disk</span>"
+msgstr "<span weight=\"light\" size=\"small\">Предупредување: Ова ќе ги избрише сите програми, документи, слики, музика и сите други видови на фајлови на вашиот диск</span>"
+
+#: ui/installation_ask.ui:70
+msgid "Encrypts the new Manjaro installation for better security"
+msgstr "Енкриптирај ја новата инсталација на Manjaro за поголема безбедност"
+
+#: ui/installation_ask.ui:91
+msgid ""
+"<span weight=\"light\" size=\"small\">You will be asked for the encryption "
+"key in the next step</span>"
+msgstr "<span weight=\"light\" size=\"small\">Ќе бидете прашани за енкрипцискиот клуч во следниот чекор</span>"
+
+#: ui/installation_ask.ui:102
+msgid "Use LVM with the new Manjaro installation"
+msgstr "Користи LVM со новата инсталација на Manjaro"
+
+#: ui/installation_ask.ui:123
+msgid ""
+"<span weight=\"light\" size=\"small\">This will set up LVM allowing you to "
+"make snapshots and change partition sizes in a straightforward way</span>"
+msgstr "<span weight=\"light\" size=\"small\">Ова ќе го подеси LVM дозволувајќи ти да направиш слики од екранот и да ја промениш големината на партициите на едноставен начин</span>"
+
+#: ui/installation_ask.ui:155
+msgid ""
+"<span weight=\"light\" size=\"small\">This will setup your /home directory "
+"in a different partition or volume.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Ова ќе го постави го твојот /почетен директориум во друга партиција или диск.</span>"
+
+#: ui/installation_ask.ui:166
+msgid "Install alongside other OSes"
+msgstr "Инсталирај покрај друг оперативен систем"
+
+#: ui/installation_ask.ui:192
+msgid ""
+"<span weight=\"light\" size=\"small\">With this option you will be "
+"installing Manjaro alongside one of the other OSes you already have "
+"installed.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Со оваа опција ќе го инсталираш Manjaro покрај еден од веќе инсталираните оперативни системи.</span>"
+
+#: ui/installation_ask.ui:204
+msgid "Manage your partitions and choose where to install Manjaro (advanced)"
+msgstr "Уреди ги своите партиции и избери каде да се инсталира Manjaro (напредно)"
+
+#: ui/installation_ask.ui:230
+msgid ""
+"<span weight=\"light\" size=\"small\">You will be able to create/delete "
+"partitions, choose where to install Manjaro and also choose additional mount"
+" points.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Ќе можете да креирате/бришете партиции, изберете каде да се инсталира Manjaro и исто така да изберете додатни точки на монтирање.</span>"
+
+#: ui/installation_automatic.ui:38
+msgid ""
+"<b>WARNING! This installation mode will overwrite everything on your "
+"drive!</b>"
+msgstr "<b>ПРЕДУПРЕДУВАЊЕ! Овој режим на инсталација ќе пребрише се на твојот уред!<b>"
+
+#: ui/language.ui:26
+msgid "<span weight=\"bold\">Please choose your language:</span>"
+msgstr "<span weight=\"bold\">Ве молам изберете го вашиот јазик:</span>"
+
+#: ui/language.ui:89
+msgid ""
+"<span weight='bold'>Notice: The Thus Installer is beta software.</span>\n"
+"\n"
+"Thus is pre-release beta software that is under active development. It does not yet properly handle RAID, btrfs subvolumes, or other advanced setups. Please proceed with caution as data loss is possible! \n"
+"\n"
+"If you find any bug, please, visit <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
+msgstr "<span weight='bold'>Notice: Thus инсталацијската програма е бета софтвер.</span>\n\nThus е бета софтвер во пред издание кој е во активен развој. Сеуште не се справува добро со RAID, btrfs субволумени и други напредни подесувања. Молиме продолжете со внимание бидејќи е можно губење на податоци.\n\nАко пронајдете некоја грешка ве молиме посетете ја <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a> "
+
+#: ui/thus.ui:37
+msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
+msgstr "<span weight=\"bold\" size=\"large\">Добредојдовте во Manjaro</span>"
+
+#: ui/user_info.ui:119 ui/user_info.ui:589
+msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
+msgstr "<small><span color=\"darkgreen\">Тешка лозинка</span></small>"
+
+#: ui/user_info.ui:177 ui/user_info.ui:662
+msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
+msgstr "<small><span color=\"darkred\">Морате да внесете лозинка</span></small>"
+
+#: ui/user_info.ui:278
+msgid "<small><span color=\"darkred\">You must enter a username</span></small>"
+msgstr "<small><span color=\"darkred\">Морате да внесете корисничко име</span></small>"
+
+#: ui/user_info.ui:356
+msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
+msgstr "<small><span color=\"darkred\">Морате да внесете име</span></small>"
+
+#: ui/user_info.ui:378
+msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
+msgstr "<span size=\"small\">Неговото име како што се прикажува на други компјутери.</span>"

@@ -1,0 +1,1644 @@
+# Translation of Thus.
+# Copyright (C) 2007-2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Pamac package.
+# Philip Müller <philm@manjaro.org>, 2013-2015.
+# 
+# Translators:
+# Carl Andersen <carl@manjaro.dk>, 2014
+# Freso <transifex.net@freso.dk>, 2011,2013
+# jakobw <jakob.wadsager@gmail.com>, 2012
+# Joe Hansen <joedalton2@yahoo.dk>, 2011,2013
+# KriZ0 <kdrejer@gmail.com>, 2014
+# Morten Juhl-Johansen Zölde-Fejér <morten@writtenandread.net>, 2013-2014
+msgid ""
+msgstr ""
+"Project-Id-Version: manjaro-thus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-04 10:30+0100\n"
+"PO-Revision-Date: 2015-01-04 09:31+0000\n"
+"Last-Translator: philm <philm@manjaro.org>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/manjaro-thus/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: thus.py:123
+msgid ""
+"This installer must be run with administrative privileges and cannot "
+"continue without them."
+msgstr "Dette installationsprogram kræver administratorrettigheder og kan ikke fortsætte uden."
+
+#: thus.py:131
+#, python-format
+msgid ""
+"You cannot run two instances of this installer.\n"
+"\n"
+"If you are sure that another installer is not already running\n"
+"you can manually delete the file %s\n"
+"and run this installer again."
+msgstr "Du kan ikke køre to instanser af dette installationsprogram samtidig.\n\nHvis du er sikker på, at der ikke kører andre instanser af programmet end denne,\nså kan du slette filen %s\nog starte installationsprogrammet påny."
+
+#: thus.py:143
+#, python-format
+msgid "Thus installer version %s"
+msgstr "Thus-installationsprogram version %s"
+
+#: thus.py:234
+msgid "Manjaro Installer"
+msgstr "Installationsprogram for Manjaro"
+
+#: thus.py:290
+msgid "Quiting installer..."
+msgstr "Afslutter installationsprogram..."
+
+#: thus.py:411
+msgid "Sets Thus log level to 'debug'"
+msgstr "Sætter Thus' logging-niveau til 'debug'"
+
+#: thus.py:412
+msgid "Update Thus to the latest version (-uu will force the update)"
+msgstr "Opdater Thus til den seneste version (-uu vil gennemtvinge opdateringen)"
+
+#: thus.py:413
+msgid "Do not perform any changes (useful for developers)"
+msgstr "Indlæg ingen ændringer (praktisk for udviklere)"
+
+#: thus.py:414
+msgid "Show logging messages to stdout"
+msgstr "Vil logmeddelelser til stdout"
+
+#: thus.py:415
+msgid "Show options in development (DO NOT USE THIS!)"
+msgstr "Vis valgmuligheder i udvikling (BRUG IKKE DENNE!)"
+
+#: src/installation/auto_partition.py:77 src/installation/auto_partition.py:86
+#: src/installation/process.py:463 src/installation/process.py:480
+#: src/installation/process.py:495
+#, python-format
+msgid "Unmounting %s"
+msgstr "Afmonterer %s"
+
+#: src/installation/auto_partition.py:81 src/installation/auto_partition.py:90
+#, python-format
+msgid "Unmounting %s failed. Trying lazy arg."
+msgstr "Afmontering af %s slået fejl. Forsøger med lazy-argumentet."
+
+#: src/installation/auto_partition.py:119
+msgid "Can't delete existent LVM volumes (see below)"
+msgstr "Kan ikke slette eksisterende LVM-enheder (se nedenfor)"
+
+#: src/installation/auto_partition.py:129
+msgid "Can't close LUKS devices (see below)"
+msgstr "Kan ikke lukke LUKS-enheder (se nedenfor)"
+
+#: src/installation/auto_partition.py:184
+#, python-format
+msgid "Unknown filesystem type %s"
+msgstr "Ukendt filsystem type %s"
+
+#: src/installation/auto_partition.py:194
+#, python-format
+msgid "Can't create filesystem %s"
+msgstr "Kan ikke oprette filsystemet %s"
+
+#: src/installation/auto_partition.py:353
+#, python-format
+msgid "Thus will setup LUKS on device %s"
+msgstr "Thus vil opsætte LUKS på enheden %s"
+
+#: src/installation/auto_partition.py:429
+#, python-format
+msgid "Total disk size: %dMiB"
+msgstr "Total disk størrelse: %dMiB"
+
+#: src/installation/auto_partition.py:430
+#, python-format
+msgid "Boot partition size: %dMiB"
+msgstr "Boot partitions størrelse: %dMiB"
+
+#: src/installation/auto_partition.py:433
+#, python-format
+msgid "LVM physical volume size: %dMiB"
+msgstr ""
+
+#: src/installation/auto_partition.py:435
+#, python-format
+msgid "Swap partition size: %dMiB"
+msgstr "Swap partition størrelse: %dMiB"
+
+#: src/installation/auto_partition.py:436
+#, python-format
+msgid "Root partition size: %dMiB"
+msgstr "Rod partition størrelse: %dMiB"
+
+#: src/installation/auto_partition.py:439
+#, python-format
+msgid "Home partition size: %dMiB"
+msgstr "Hjemme partition størrelse: %dMiB"
+
+#: src/installation/auto_partition.py:468
+msgid ""
+"Setup cannot detect size of your device, please use advanced installation "
+"routine for partitioning and mounting devices."
+msgstr "Programmet kan ikke læse størrelsen af din enhed. Anvend den avancerede installationsprocedure til at partitionere og montere enhederne."
+
+#: src/installation/auto_partition.py:601
+#, python-format
+msgid "Will setup LVM on device %s"
+msgstr "Opsætter LVM på enheden %s"
+
+#: src/bootinfo.py:54 src/bootinfo.py:66 src/bootinfo.py:72 src/bootinfo.py:86
+#: src/installation/alongside.py:220
+msgid "unknown"
+msgstr "ukendt"
+
+#: src/canonical/misc.py:929
+#, python-format
+msgid "Can't set locale %s"
+msgstr "Kan ikke sætte lokaldata til %s"
+
+#: src/canonical/validation.py:132
+msgid "password is too short"
+msgstr "adgangskode er for kort"
+
+#: src/canonical/validation.py:135
+msgid "weak password"
+msgstr "svag adgangskode"
+
+#: src/canonical/validation.py:138
+msgid "fair password"
+msgstr "rimelig adgangskode"
+
+#: src/canonical/validation.py:141
+msgid "good password"
+msgstr "god adgangskode"
+
+#: src/canonical/validation.py:144
+msgid "strong password"
+msgstr "stærk adgangskode"
+
+#: src/canonical/validation.py:159
+msgid "Passwords do not match"
+msgstr "Adgangskoder matcher ikke"
+
+#: src/check.py:79
+msgid "System Check"
+msgstr "System-check"
+
+#: src/check.py:84
+#, python-format
+msgid "has at least %dGB available storage space"
+msgstr "har mindst %dGB diskplads til rådighed"
+
+#: src/check.py:89
+msgid ""
+"This highly depends on which desktop environment you choose, so you might "
+"need more space."
+msgstr "Dette afhænger i høj grad af det skrivebordsmiljø der vælges, så der kan blive brug for mere plads."
+
+#: src/check.py:94
+msgid "is plugged in to a power source"
+msgstr "er sat til strøm"
+
+#: src/check.py:98
+msgid "is connected to the Internet"
+msgstr "er forbundet med internettet"
+
+#: src/check.py:102
+msgid "For best results, please ensure that this computer:"
+msgstr "For at få de bedste resultater skal du sikre dig, at denne computer:"
+
+#: src/check.py:173
+msgid "We have Internet connection."
+msgstr "Vi har internetforbindelse."
+
+#: src/check.py:174
+msgid "We're connected to a power source."
+msgstr "Vi er sat til strøm"
+
+#: src/check.py:175
+msgid "We have enough disk space."
+msgstr "Vi har ikke tilstrækkelig diskplads."
+
+#: src/installation/advanced.py:218 src/installation/advanced.py:512
+#: src/installation/advanced.py:526
+msgid "free space"
+msgstr "ledig plads"
+
+#: src/installation/advanced.py:266
+msgid "It's not recommended to install grub in a partition"
+msgstr "Det anbefales ikke at installere grub på en partition"
+
+#: src/installation/advanced.py:294 src/installation/alongside.py:172
+msgid "Device"
+msgstr "Enhed"
+
+#: src/installation/advanced.py:297
+msgid "Type"
+msgstr "Type"
+
+#: src/installation/advanced.py:300
+msgid "Mount point"
+msgstr "Monteringssted"
+
+#: src/installation/advanced.py:303
+msgid "Label"
+msgstr "Mærkat"
+
+#: src/installation/advanced.py:309 src/installation/advanced.py:1643
+msgid "Format"
+msgstr "Format"
+
+#: src/installation/advanced.py:312
+msgid "Size"
+msgstr "Størrelse"
+
+#: src/installation/advanced.py:315
+msgid "Used"
+msgstr "Anvendt"
+
+#: src/installation/advanced.py:318
+msgid "Flags"
+msgstr "Flag"
+
+#: src/installation/advanced.py:324
+msgid "SSD"
+msgstr "SSD"
+
+#: src/installation/advanced.py:493
+msgid "none"
+msgstr "intet"
+
+#: src/installation/advanced.py:548 src/installation/advanced.py:962
+#: src/installation/advanced.py:1501 src/installation/advanced.py:1594
+#: src/installation/advanced.py:1745 src/installation/advanced.py:1839
+msgid "extended"
+msgstr "udvidet"
+
+#: src/installation/advanced.py:679 src/installation/advanced.py:932
+msgid "Can't use same mount point twice..."
+msgstr "Kan ikke bruge samme monteringspunkt to gange..."
+
+#: src/installation/advanced.py:953
+msgid "Creating primary partition"
+msgstr "Opretter primærpartition"
+
+#: src/installation/advanced.py:964
+msgid "Creating extended partition"
+msgstr "Opretter udvidet partition"
+
+#: src/installation/advanced.py:970
+msgid "Creating logical partition"
+msgstr "Opretter logisk partition"
+
+#: src/installation/advanced.py:1104
+msgid "Advanced installation mode"
+msgstr "Avanceret installation"
+
+#: src/installation/advanced.py:1108 ui/installation_advanced.ui:1157
+msgid "Use this device for boot loader installation:"
+msgstr "Anvend denne enhed til installation af bootloader:"
+
+#: src/installation/advanced.py:1113
+msgid "Mount checklist:"
+msgstr "Monteringscheckliste:"
+
+#: src/installation/advanced.py:1119
+msgid "Root"
+msgstr "Root"
+
+#: src/installation/advanced.py:1123 ui/bootloader.ui:7
+msgid "Boot"
+msgstr "Boot"
+
+#: src/installation/advanced.py:1127
+msgid "EFI"
+msgstr "EFI"
+
+#: src/installation/advanced.py:1131
+msgid "Swap"
+msgstr "Swap"
+
+#: src/installation/advanced.py:1139
+msgid "New partition table"
+msgstr "Ny partitionstabel"
+
+#: src/installation/advanced.py:1147
+msgid "Change..."
+msgstr "Skift..."
+
+#: src/installation/advanced.py:1152 ui/installation_advanced.ui:407
+msgid "Size:"
+msgstr "Størrelse:"
+
+#: src/installation/advanced.py:1156 ui/installation_advanced.ui:630
+msgid "Type:"
+msgstr "Type:"
+
+#: src/installation/advanced.py:1160 ui/installation_advanced.ui:647
+msgid "Primary"
+msgstr "Primær"
+
+#: src/installation/advanced.py:1164 ui/installation_advanced.ui:671
+msgid "Logical"
+msgstr "Logisk"
+
+#: src/installation/advanced.py:1168 ui/installation_advanced.ui:695
+msgid "Extended"
+msgstr "Udvidet"
+
+#: src/installation/advanced.py:1172 ui/installation_advanced.ui:516
+msgid "Beginning of this space"
+msgstr "Begyndelsen af denne diskplads"
+
+#: src/installation/advanced.py:1176 ui/installation_advanced.ui:540
+msgid "End of this space"
+msgstr "Enden af denne diskplads"
+
+#: src/installation/advanced.py:1180 src/installation/advanced.py:1197
+#: ui/installation_advanced.ui:179 ui/installation_advanced.ui:438
+msgid "Use as:"
+msgstr "Anvend som:"
+
+#: src/installation/advanced.py:1184 src/installation/advanced.py:1201
+#: ui/installation_advanced.ui:212 ui/installation_advanced.ui:476
+msgid "Mount point:"
+msgstr "Monteringspunkt:"
+
+#: src/installation/advanced.py:1188 src/installation/advanced.py:1205
+#: ui/installation_advanced.ui:249 ui/installation_advanced.ui:730
+msgid "Label (optional):"
+msgstr "Mærkat (ikke påkrævet)"
+
+#: src/installation/advanced.py:1192
+msgid "Encryption Options..."
+msgstr "Krypteringsmuligheder..."
+
+#: src/installation/advanced.py:1209 ui/installation_advanced.ui:276
+msgid "Format:"
+msgstr "Format:"
+
+#: src/installation/advanced.py:1214
+msgid "Partition Table Type:"
+msgstr "Type partitionstabel:"
+
+#: src/installation/advanced.py:1219
+msgid "Create Partition Table"
+msgstr "Opret partitionstabel"
+
+#: src/installation/advanced.py:1222 src/installation/alongside.py:150
+#: src/installation/automatic.py:103
+msgid "Install now!"
+msgstr "Installer nu!"
+
+#: src/installation/advanced.py:1308
+#, python-format
+msgid "Creating a new partition table of type %s for disk %s"
+msgstr "Opretter ny partitionstabel af typen %s for disken %s"
+
+#: src/installation/advanced.py:1318
+msgid ""
+"GRUB requires a BIOS Boot Partition (2 MiB, no filesystem, \"EF02\" type code in gdisk or \"bios_grub\" flag in GNU Parted) in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
+"\n"
+"Thus will create this special partition for you now."
+msgstr "GRUB kræver en BIOS-bootpartition (2MB, intet filsystem, \"EF02\"-type kode i gdisk eller \"bios_grub\"-flag i GNU Parted) i BIOS-systemer til at indlejle sin core.img-fil på grund af en manglende plads efter MBR i GPT-diske.\n\nThus vil nu oprette denne specialpartition."
+
+#: src/installation/advanced.py:1350
+msgid "Can't create BIOS GPT Boot partition!"
+msgstr "Kan ikke oprette BIOS GPT-bootpartition!"
+
+#: src/installation/advanced.py:1377
+msgid "Couldn't create BIOS GPT Boot partition"
+msgstr "Kunne ikke oprette BIOS GPT bootpartition"
+
+#: src/installation/advanced.py:1540
+#, python-format
+msgid ""
+"%s is mounted as swap.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "%s er monteret som swap.\nFor at fortsætte, er den nødt til at blive afmonteret.\nTryk Ja for at afmontere eller Nej for at gå tilbage\n"
+
+#: src/installation/advanced.py:1544
+#, python-format
+msgid ""
+"%s is mounted in '%s'.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "%s er monteret på '%s'-\nFor at kunne fortsætte er den nødt til at blive afmonteret.\nTryk Ja for at afmontere eller Nej for at gå tilbage\n"
+
+#: src/installation/advanced.py:1567
+#, python-format
+msgid "%s shows as mounted (busy) but it has no mount point"
+msgstr "%s vises som monteret (optaget), men har ikke noget monteringspunkt"
+
+#: src/installation/advanced.py:1573
+msgid ""
+"The root partition is not marked to be formatted.\n"
+"This might create problems. Should it be marked to be formatted now?"
+msgstr "Root-partitionen er ikke markeret til formattering.\nDette kan skabe problemer. Skal den markeres til formattering nu?"
+
+#: src/installation/advanced.py:1636
+#, python-format
+msgid "Partition %s will be deleted"
+msgstr "Partitionen %s vil blive slettet"
+
+#: src/installation/advanced.py:1643
+msgid "Partition"
+msgstr "Partition"
+
+#: src/installation/advanced.py:1643
+msgid "New"
+msgstr "Ny"
+
+#: src/installation/advanced.py:1643
+msgid "Relabel"
+msgstr "Skift mærkat"
+
+#: src/installation/advanced.py:1643
+msgid "Mount"
+msgstr "Monter"
+
+#: src/installation/advanced.py:1664
+msgid "These disks will have partition actions:"
+msgstr "Disse diske vil indgå i partitionering:"
+
+#: src/installation/advanced.py:1724
+#, python-format
+msgid "Saving changes done in %s"
+msgstr "Gemmer ændringer foretaget i %s"
+
+#: src/installation/advanced.py:1748
+#, python-format
+msgid "Creating %s filesystem in %s labeled %s"
+msgstr "Opretter et %s-filsystem på %s med mærket %s"
+
+#: src/installation/advanced.py:1790
+#, python-format
+msgid "Setting boot flag in %s partition"
+msgstr "Sætter bootflaget på partitionen %s"
+
+#: src/installation/advanced.py:1809
+#, python-format
+msgid "Couldn't format partition '%s' with label '%s' as '%s'"
+msgstr "Kunne ikke formattere partition '%s' med label '%s' som '%s'"
+
+#: src/installation/advanced.py:1850 src/installation/alongside.py:499
+#: src/installation/automatic.py:226
+msgid "Thus will not install any boot loader"
+msgstr "Thus vil ikke installere en bootloader"
+
+#: src/installation/advanced.py:1860
+#, python-format
+msgid "Manjaro will install the bootloader of type %s in %s"
+msgstr "Manjaro vil installere en bootloader af typen %s i %s"
+
+#: src/installation/advanced.py:1876 src/installation/alongside.py:512
+#: src/installation/automatic.py:247
+msgid "Testing mode. Thus won't apply any changes to your system!"
+msgstr "Testvisning. Thus vil ikke lave nogle ændringer på dit system!"
+
+#: src/installation/alongside.py:115
+#, python-format
+msgid "Can't load %s css"
+msgstr "Kan ikke indlæse %s css"
+
+#: src/installation/alongside.py:142
+msgid "Choose which OS you want to install Manjaro next to"
+msgstr "Vælg. hvilket OS du ønsker at installere Manjaro sammen med"
+
+#: src/installation/alongside.py:146
+msgid "Manjaro alongside another OS"
+msgstr "Manjaro sammen med andet OS"
+
+#: src/installation/alongside.py:175
+msgid "Detected OS"
+msgstr "Registreret OS"
+
+#: src/installation/alongside.py:178
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: src/installation/alongside.py:196
+msgid "pyparted3 not found!"
+msgstr "Kan ikke finde pyparted3!"
+
+#: src/installation/alongside.py:224
+msgid "Unable to create list of partitions for alongside installation."
+msgstr "Kunne ikke oprette en liste over partitioner til dualboot-installation "
+
+#: src/installation/alongside.py:268
+msgid "Can't shrink the partition (maybe it's nearly full?)"
+msgstr "Kan ikke reducere partitionens størrelse (måske er den næsten fuld?)"
+
+#: src/installation/alongside.py:356
+msgid "There are too many primary partitions, can't create a new one"
+msgstr "Der er for mange primærpartitioner, der kan ikke oprettes en ny."
+
+#: src/installation/alongside.py:390
+#, python-format
+msgid "Can't shrink %s(%s) filesystem"
+msgstr "Kan ikke formindske %s(%s) filsystem"
+
+#: src/installation/alongside.py:399
+#, python-format
+msgid "Can't shrink %s(%s) partition"
+msgstr "Kan ikke formindske %s(%s) partition"
+
+#: src/installation/alongside.py:418 src/installation/alongside.py:470
+msgid "Cannot create new partition."
+msgstr "Kan ikke oprette ny partition"
+
+#: src/installation/alongside.py:458
+msgid "Cannot create new swap partition."
+msgstr "Kan ikke oprette en ny swap partition"
+
+#: src/installation/alongside.py:495 src/installation/automatic.py:222
+#, python-format
+msgid "Thus will install the bootloader of type %s in %s"
+msgstr "Thus vil installere bootloaderen %s på %s"
+
+#: src/installation/ask.py:99
+msgid "Installation type"
+msgstr "Installationstype"
+
+#: src/installation/ask.py:113 ui/installation_ask.ui:34
+msgid "Erase disk and install Manjaro (automatic)"
+msgstr "Slet disk og installer Manjaro (automatisk)"
+
+#: src/installation/ask.py:116
+msgid "Warning: This will delete all data on your disk"
+msgstr "Advarsel: Dette vil slette alle data på disken"
+
+#: src/installation/ask.py:122
+msgid "Encrypt this installation for increased security."
+msgstr "Krypter denne installation for øget sikkerhed."
+
+#: src/installation/ask.py:126
+msgid "You will be asked for the encryption key in the next step."
+msgstr "Du vil blive bedt om en krypteringsnøgle ved næste skridt."
+
+#: src/installation/ask.py:131
+msgid "Use LVM with this installation."
+msgstr "Anvend LVM med denne installation."
+
+#: src/installation/ask.py:135
+msgid ""
+"This will set up LVM allowing you to make snapshots and change partition "
+"sizes in a straightforward way."
+msgstr "Dette vil opsætte LVM, som gør det nemt at lave snapshots og ændre partitionsstørelse."
+
+#: src/installation/ask.py:140 ui/installation_ask.ui:134
+msgid "Set your Home in a different partition/volume"
+msgstr "Sæt Home på anden partition/enhed"
+
+#: src/installation/ask.py:144
+msgid ""
+"This will setup your /home directory in a different partition or volume."
+msgstr "Dette vil opsætte din /home-mappe på en anden partition eller enhed."
+
+#: src/installation/ask.py:152 src/installation/ask.py:154
+#, python-format
+msgid "Install Manjaro alongside %s"
+msgstr "Installer Manjaro ved siden af %s"
+
+#: src/installation/ask.py:161
+msgid "Manage your partitions and where to install Manjaro (advanced)"
+msgstr "Opsæt dine partitioner og vælg hvor du ønsker at installere Manjaro (avanceret)"
+
+#: src/installation/ask.py:164
+msgid ""
+"You will be able to create/delete partitions, choose where to install "
+"Manjaro and also choose additional mount points."
+msgstr "Du vil kunne oprette/slette partitioner, vælge hvor du ønsker at installere Manjaro og også vælge yderligere monteringspunkter."
+
+#: src/installation/ask.py:190
+msgid "Manjaro installation will be encrypted using LUKS"
+msgstr "Manjaro-installationen vil blive krypteret ved hjælp af LUKS"
+
+#: src/installation/ask.py:193
+msgid "Manjaro will be installed using LVM volumes"
+msgstr "Manjaro vil blive installeret med en LVM-opsætning"
+
+#: src/installation/ask.py:195
+msgid "Manjaro will be installed using a separate /home volume."
+msgstr "Manjaro vil blive installeret med en separat enhed til /home."
+
+#: src/installation/ask.py:197
+msgid "Manjaro will be installed using a separate /home partition."
+msgstr "Manjaro vil blive installeret med en separat /home-partition."
+
+#: src/installation/automatic.py:75
+msgid "Automatic installation mode"
+msgstr "Automatisk installation"
+
+#: src/installation/automatic.py:79 ui/installation_automatic.ui:96
+msgid "Select drive:"
+msgstr "Vælg drev:"
+
+#: src/installation/automatic.py:83
+msgid ""
+"WARNING! This installation mode will overwrite everything on your drive!"
+msgstr "Advarsel! Denne installationsform overskriver alt på din harddisk!"
+
+#: src/installation/automatic.py:88 ui/installation_automatic.ui:59
+msgid ""
+"Please choose the drive where you want to install Manjaro\n"
+"and click the button below to start the process."
+msgstr "Vælg drevet, hvor du ønsker at installere Manjaro,\nog klik nedenfor for at starte installationen."
+
+#: src/installation/automatic.py:93 ui/installation_automatic.ui:176
+msgid "Encryption Password:"
+msgstr "Adgangskode for kryptering:"
+
+#: src/installation/automatic.py:97 src/user_info.py:124
+#: ui/installation_automatic.ui:161 ui/user_info.ui:80
+msgid "Confirm your password:"
+msgstr "Bekræft din adgangskode"
+
+#: src/installation/automatic.py:101 src/user_info.py:177
+#: ui/installation_automatic.ui:258 ui/user_info.ui:422
+msgid "Show password"
+msgstr "Vis adgangskode"
+
+#: src/installation/automatic.py:164
+msgid "A LUKS password has been set"
+msgstr "Der er blevet sat en LUKS-adgangskode"
+
+#: src/installation/automatic.py:166
+#, python-format
+msgid "Automatic install on %s"
+msgstr "Automatisk installation på %s"
+
+#: src/installation/automatic.py:199
+#, python-format
+msgid ""
+"Do you really want to proceed and delete all your content on your hard drive?\n"
+"\n"
+"%s"
+msgstr "Ønsker du at fortsætte og slette alt indhold på din harddisk?\n\n%s"
+
+#: src/installation/automatic.py:211
+#, python-format
+msgid "Thus will use %s as installation device"
+msgstr "Thus vil bruge %s som enhed for installation"
+
+#: src/installation/process.py:107
+#, python-format
+msgid "Copying '/%s'"
+msgstr "Kopierer '/%s'"
+
+#: src/installation/process.py:188
+#, python-format
+msgid "Installing using the '%s' method"
+msgstr "Installer ved hjælp af metoden '%s'"
+
+#: src/installation/process.py:265
+#, python-format
+msgid "Creating partitions and their filesystems in %s"
+msgstr "Opretter partitioner og deres filsystemer på %s"
+
+#: src/installation/process.py:286
+msgid "Error creating partitions and their filesystems"
+msgstr "Fejl ved oprettelse af partitionerne og deres filsystemer"
+
+#: src/installation/process.py:288 src/installation/process.py:361
+#: src/installation/process.py:373 src/installation/process.py:671
+#, python-format
+msgid "Command %s has failed."
+msgstr "Kommandoen %s har fejlet."
+
+#: src/installation/process.py:290 src/installation/process.py:337
+#: src/installation/process.py:363 src/installation/process.py:375
+#: src/installation/process.py:398 src/installation/process.py:673
+#, python-format
+msgid "Output : %s"
+msgstr "Output : %s"
+
+#: src/installation/process.py:323 src/installation/process.py:354
+#, python-format
+msgid "Mounting partition %s into %s directory"
+msgstr "Monterer partitionen %s på mappen %s"
+
+#: src/installation/process.py:329
+#, python-format
+msgid "Mounting partition %s into %s/boot directory"
+msgstr "Monterer partitionen %s på mappen %s/boot"
+
+#: src/installation/process.py:333
+msgid "Couldn't mount root and boot partitions"
+msgstr "Kunne ikke montere partitionerne root og boot"
+
+#: src/installation/process.py:335 src/installation/process.py:396
+#, python-format
+msgid "Command %s has failed"
+msgstr "Kommandoen %s har fejlet"
+
+#: src/installation/process.py:359
+#, python-format
+msgid "Can't mount %s in %s"
+msgstr "Kan ikke montere %s på %s"
+
+#: src/installation/process.py:367
+#, python-format
+msgid "Mounting swap %s"
+msgstr "Monterer swap %s"
+
+#: src/installation/process.py:371
+#, python-format
+msgid "Can't mount %s"
+msgstr "Kan ikke montere %s"
+
+#: src/installation/process.py:386
+#, python-format
+msgid "%s deleted"
+msgstr "%s slettet"
+
+#: src/installation/process.py:394
+msgid "Can't create necessary directories on destination system"
+msgstr "Kan ikke oprette de nødvendige mapper på systemet"
+
+#: src/installation/process.py:406
+msgid "Install System ..."
+msgstr "Installerer system ..."
+
+#: src/installation/process.py:411
+msgid "System installed."
+msgstr "System installeret."
+
+#: src/installation/process.py:413
+msgid "Configuring system ..."
+msgstr "Opsætter system ..."
+
+#: src/installation/process.py:415
+msgid "System configured."
+msgstr "System opsat."
+
+#: src/installation/process.py:419
+msgid "Installing boot loader ..."
+msgstr "Installerer bootloader ..."
+
+#: src/installation/process.py:452
+#, python-format
+msgid "Can't copy Thus log to %s"
+msgstr "Kan ikke kopiere logfil fra Thus til %s"
+
+#: src/installation/process.py:471 src/installation/process.py:490
+#: src/installation/process.py:504
+#, python-format
+msgid "Can't unmount %s"
+msgstr "Kan ikke afmontere %s"
+
+#: src/installation/process.py:506
+msgid "Installation finished successfully."
+msgstr "Installationen er fuldført uden fejl."
+
+#: src/installation/process.py:542
+msgid "Base filesystem does not exist! Critical error (exiting)."
+msgstr "Grundfilsystemet findes ikke! Kritisk fejl (afbryder)."
+
+#: src/installation/process.py:546
+msgid "Desktop filesystem does not exist! Critical error (exiting)."
+msgstr "Desktop-filsystem findes ikke! Kritisk fejl (afbryder)."
+
+#: src/installation/process.py:556 src/installation/process.py:562
+#, python-format
+msgid "%s is already mounted at %s as %s"
+msgstr "%s er allerede monteret på %s som %s"
+
+#: src/installation/process.py:573
+msgid "Indexing files to be copied ..."
+msgstr "Indekserer filer, der skal kopieres ..."
+
+#: src/installation/process.py:578
+msgid "Extracting root-image ..."
+msgstr "Udtrækker root-image ..."
+
+#: src/installation/process.py:588
+msgid "Extracting desktop-image ..."
+msgstr "Udtrækker desktop-image ..."
+
+#: src/installation/process.py:603
+#, python-format
+msgid "Restoring meta-information on %s"
+msgstr "Gendanner metaoplysninger på %s"
+
+#: src/installation/process.py:619
+msgid "Special dirs already mounted."
+msgstr "Specialmapper er allerede monteret."
+
+#: src/installation/process.py:653
+msgid "Special dirs are not mounted. Skipping."
+msgstr "Specialmapper er ikke monteret. De springes over."
+
+#: src/installation/process.py:670 src/installation/process.py:676
+#, python-format
+msgid "Unable to umount %s"
+msgstr "Ude af stand til at afmontere %s"
+
+#: src/installation/process.py:698
+#, python-format
+msgid "Error running command: %s"
+msgstr "Fejl ved kommandoen: %s"
+
+#: src/installation/process.py:701
+#, python-format
+msgid "Timeout running command: %s"
+msgstr ""
+
+#: src/installation/process.py:734
+msgid "Can't copy network configuration files"
+msgstr "Kan ikke kopiere filer til netværksopsætning"
+
+#: src/installation/process.py:764 src/installation/process.py:825
+#, python-format
+msgid "Added to fstab : UUID=%s %s %s %s 0 %s"
+msgstr "Tilføjet til fstab : UUID=%s %s %s %s 0 %s"
+
+#: src/installation/process.py:778
+#, python-format
+msgid "Added to crypttab : %s"
+msgstr "Tilføjet til crypttab : %s"
+
+#: src/installation/process.py:782
+#, python-format
+msgid "Added to fstab : /dev/mapper/cryptManjaroHome %s %s %s 0 %s"
+msgstr "Tilføjet til fstab : /dev/mapper/cryptManjaroHome %s %s %s 0 %s"
+
+#: src/installation/process.py:829
+msgid "Added to fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
+msgstr "Tilføjet til fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
+
+#: src/installation/process.py:933
+msgid "ERROR on preparing 'etc/grub.d'-folder."
+msgstr ""
+
+#: src/installation/process.py:941
+#, python-format
+msgid "Installing GRUB(2) BIOS boot loader in %s"
+msgstr "Installerer Grub(2) BIOS bootloader på %s"
+
+#: src/installation/process.py:961 src/installation/process.py:1049
+msgid ""
+"grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
+" continue."
+msgstr ""
+
+#: src/installation/process.py:969
+msgid "GRUB(2) BIOS has been successfully installed."
+msgstr "GRUB(2) BIOS er installeret korrekt."
+
+#: src/installation/process.py:972
+msgid "ERROR installing GRUB(2) BIOS."
+msgstr "Fejl ved installation af GRUB(2) BIOS."
+
+#: src/installation/process.py:989
+#, python-format
+msgid "Installing GRUB(2) UEFI %s boot loader"
+msgstr "Installerer GRUB(2) UEFI %s bootloader"
+
+#: src/installation/process.py:1002
+msgid "Installing Grub2 locales."
+msgstr "Installerer regionsdata for Grub2."
+
+#: src/installation/process.py:1015
+#, python-format
+msgid "No OEM loader found in %s. Copying Grub(2) into dir."
+msgstr "Ingen OEM-loader fundet i %s. Kopierer Grub(2) ind i mappen."
+
+#: src/installation/process.py:1020
+msgid "Copying Grub(2) into OEM dir failed. File Not Found."
+msgstr "Kopiering af Grub(2) til OEM-mappe slået fejl. Fil ikke fundet."
+
+#: src/installation/process.py:1022
+msgid "Copying Grub(2) into OEM dir failed. File Exists."
+msgstr "Kopiering af Grub(2) til OEM-mappe slået fejl. Fil findes allerede."
+
+#: src/installation/process.py:1024
+msgid "Copying Grub(2) into OEM dir failed. Unknown Error."
+msgstr "Kopiering af Grub(2) til OEM-mappe slået fejl. Ukendt fejl."
+
+#: src/installation/process.py:1042
+msgid "Generating grub.cfg"
+msgstr "Genererer grub.cfg"
+
+#: src/installation/process.py:1057
+msgid "GRUB(2) UEFI has been successfully installed."
+msgstr ""
+
+#: src/installation/process.py:1060
+msgid "ERROR installing GRUB(2) UEFI."
+msgstr "Fejl ved installation af GRUB(2) UEFI."
+
+#: src/installation/process.py:1075
+msgid "ERROR installing GRUB(2) locale."
+msgstr "Fejl ved installation af lokaldata for GRUB(2)."
+
+#: src/installation/process.py:1109
+msgid "Can't freeze/unfreeze xfs system"
+msgstr ""
+
+#: src/installation/process.py:1115
+#, python-format
+msgid "Enabled %s service."
+msgstr "Aktiveret tjenesten %s."
+
+#: src/installation/process.py:1121
+#, python-format
+msgid "Enabled %s target."
+msgstr ""
+
+#: src/installation/process.py:1128
+#, python-format
+msgid "Error creating password hash for user %s"
+msgstr "Fejl ved etablering af hash for adgangskode for brugeren %s"
+
+#: src/installation/process.py:1134
+#, python-format
+msgid "Error changing password for user %s"
+msgstr "Fejl ved ændring af af adgangskode for brugeren %s"
+
+#: src/installation/process.py:1146
+msgid "Setting hooks and modules in mkinitcpio.conf"
+msgstr "Sætter hooks og moduler i mkinitcpio.conf"
+
+#: src/installation/process.py:1244
+#, python-format
+msgid "%s: Enable automatic login for user %s."
+msgstr "%s: Aktiver automatisk login for brugeren %s."
+
+#: src/installation/process.py:1362 src/installation/process.py:1373
+msgid "Configuring your new system"
+msgstr "Konfigurerer dit nye system"
+
+#: src/installation/process.py:1365
+msgid "fstab file generated."
+msgstr "fstab-fil genereret."
+
+#: src/installation/process.py:1371
+msgid "Network configuration copied."
+msgstr "Netværksopsætning kopieret."
+
+#: src/installation/process.py:1400
+msgid "Time zone set."
+msgstr "Tidszone sat."
+
+#: src/installation/process.py:1421
+#, python-format
+msgid "Sudo configuration for user %s done."
+msgstr "Sudo-opsætning for brugeren %s er fuldført."
+
+#: src/installation/process.py:1431
+#, python-format
+msgid "User %s added."
+msgstr "Brugeren %s tilføjet."
+
+#: src/installation/process.py:1443
+#, python-format
+msgid "Hostname  %s set."
+msgstr "Værtsnavn sat til %s."
+
+#: src/installation/process.py:1448
+msgid "Set root password."
+msgstr "Sæt root-adgangskode."
+
+#: src/installation/process.py:1451
+msgid "Set the same password to root."
+msgstr "Sæt samme adgangskode for root."
+
+#: src/installation/process.py:1457
+msgid "Generating locales ..."
+msgstr "Genererer data for region..."
+
+#: src/installation/process.py:1475
+msgid "Adjusting hardware clock ..."
+msgstr "Justerer hardware-uret..."
+
+#: src/installation/process.py:1484
+msgid "Configuring hardware ..."
+msgstr "Konfigurerer hardware..."
+
+#: src/installation/process.py:1557
+msgid "Installing drivers ..."
+msgstr ""
+
+#: src/installation/process.py:1564
+msgid "Can't execute the MHWD script"
+msgstr "Kan ikke køre KHWD-scriptet"
+
+#: src/installation/process.py:1577
+msgid "Configure display manager ..."
+msgstr "Opsætter display manager..."
+
+#: src/installation/process.py:1659
+msgid "Configure System ..."
+msgstr "Opsætter system..."
+
+#: src/installation/process.py:1688
+msgid "Removing live configuration (packages)"
+msgstr "Fjerner livekonfiguration (pakker)"
+
+#: src/installation/process.py:1704
+msgid "Configuring package manager"
+msgstr "Konfigurerer pakkestyringsprogram"
+
+#: src/installation/process.py:1716
+msgid "Finished configuring package manager."
+msgstr "Konfiguration af pakkestyringsprogram fuldført."
+
+#: src/installation/process.py:1740
+msgid "Running mkinitcpio ..."
+msgstr "Kører mkinitcpio..."
+
+#: src/installation/process.py:1743
+msgid "Running mkinitcpio - done"
+msgstr "Kører mkinitcpio... færdig"
+
+#: src/installation/process.py:1759
+msgid "Encrypting user home dir ..."
+msgstr "Krypterer brugerens home-mappe ..."
+
+#: src/installation/process.py:1761
+msgid "User home dir encrypted"
+msgstr "Brugerens home-mappe krypteret"
+
+#: src/keymap.py:67
+msgid "Select your keyboard layout"
+msgstr "Vælg tastaturlayout"
+
+#: src/keymap.py:71
+msgid "Type here to test your keyboard"
+msgstr "Tast her for at teste dit tastatur"
+
+#: src/keymap.py:78
+msgid "Layouts"
+msgstr "Layouts"
+
+#: src/keymap.py:84
+msgid "Variants"
+msgstr "Varianter"
+
+#: src/keymap.py:103
+#, python-format
+msgid "keyboard_layout is %s"
+msgstr "keyboard_layout er %s"
+
+#: src/language.py:78
+msgid "Please choose your language:"
+msgstr "Vælg dit sprog:"
+
+#: src/language.py:83
+msgid "Notice: The Thus Installer is beta software."
+msgstr "Bemærk: Thus-installeren er beta-software."
+
+#: src/language.py:84
+msgid ""
+"Thus is pre-release beta software that is under active development. \n"
+"It does not yet properly handle RAID, btrfs subvolumes, or other  \n"
+"advanced setups. Please proceed with caution as data loss is possible! \n"
+"\n"
+"If you find any bugs, please report them at <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
+msgstr "Thus er beta-software, som er under aktiv udvikling.\nDen håndterer endnu ikke RAID, btrfs-underenheder eller andre\navancerede opsætninger. Fortsæt med forsigtighed, da datatab er en mulighed!\n\nHvis du finder fejl, bedes du oplyse dem på <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
+
+#: src/language.py:91
+msgid "Welcome to Manjaro!"
+msgstr "Velkommen til Manjaro!"
+
+#: src/language.py:108
+msgid "Languages"
+msgstr "Sprog"
+
+#: src/language.py:128
+#, python-format
+msgid "Can't find translation file for the %s language"
+msgstr "Kan ikke finde oversættelsesfil for sproget %s"
+
+#: src/location.py:64
+msgid "Select your location"
+msgstr "Vælg din geografiske placering"
+
+#: src/location.py:68
+msgid ""
+"The selected location will be used to help select the system locale.\n"
+"Normally this should be the country where you live.\n"
+"This is a shortlist of locations based on the language you selected."
+msgstr "Den valgte placering vil blive brugt til at hjælpe med valget af lokale systemdata.\nDette vil normalt være dem, der gælder for det land, du bor i.\nDette er en kort liste af lokaldata baseret på det sprog, du valgte."
+
+#: src/location.py:73
+msgid "Country, territory or area:"
+msgstr "Land eller område:"
+
+#: src/parted3/fs_module.py:148
+#, python-format
+msgid "Can't verify if %s is a Solid State Drive or not"
+msgstr "Kan ikke afgøre, om %s er en SSD eller ikke"
+
+#: src/parted3/fs_module.py:173
+#, python-format
+msgid "Sorry but filesystem %s can't be resized"
+msgstr "Beklager, men størrelsen på filsystemet %s kan ikke ændres"
+
+#: src/parted3/lvm.py:75
+#, python-format
+msgid "Can't remove logical volume %s"
+msgstr "Kan ikke fjerne logisk enhed %s"
+
+#: src/parted3/lvm.py:93
+#, python-format
+msgid "Can't remove volume group %s"
+msgstr "Kan ikke fjerne enhedsgruppe %s"
+
+#: src/parted3/lvm.py:105
+#, python-format
+msgid "Can't remove physical volume %s"
+msgstr "Kan ikke fjerne fysisk enhed %s"
+
+#: src/parted3/partition_module.py:106
+#, python-format
+msgid "Adding %s to disk_dic"
+msgstr "Tilføjer %s til disk_dic"
+
+#: src/parted3/partition_module.py:108
+#, python-format
+msgid "Unrecognised disk label in device %s."
+msgstr "Ukendt disklabel i enhed %s."
+
+#: src/parted3/partition_module.py:112
+#, python-format
+msgid ""
+"Exception: %s.\n"
+"For more information take a look at /tmp/thus.log"
+msgstr "Undtagelse: %s.\nFor nærmere oplysninger kan der kigges i /tmp/thus.log"
+
+#: src/parted3/partition_module.py:179
+#, python-format
+msgid "Can't delete partition %s"
+msgstr "Kan ikke slette partition %s"
+
+#: src/parted3/partition_module.py:230
+msgid "Partition is too large!"
+msgstr "Partition er for stor!"
+
+#: src/parted3/partition_module.py:290
+#, python-format
+msgid "Can't detect used space from %s"
+msgstr "Kan ikke registrere optaget plads på %s"
+
+#: src/parted3/used_space.py:39
+#, python-format
+msgid "Can't detect used space of NTFS partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på NTFS-partition %s"
+
+#: src/parted3/used_space.py:65
+#, python-format
+msgid "Can't detect used space of EXTFS partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på EXTFS-partition %s"
+
+#: src/parted3/used_space.py:94
+#, python-format
+msgid "Can't detect used space of FAT partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på FAT-partition %s"
+
+#: src/parted3/used_space.py:125
+#, python-format
+msgid "Can't detect used space of JFS partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på JFS-partition %s"
+
+#: src/parted3/used_space.py:149
+#, python-format
+msgid "Can't detect used space of REISERFS partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på Reiserfs-partition %s"
+
+#: src/parted3/used_space.py:175
+#, python-format
+msgid "Can't detect used space of BTRFS partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på BTRFS-partition %s"
+
+#: src/parted3/used_space.py:212
+#, python-format
+msgid "Can't detect used space of XFS partition %s"
+msgstr "Kan ikke registrere, hvor meget optaget plads der er på XFS-partition %s"
+
+#: src/rank_mirrors.py:54
+msgid "Can't find rank mirrors script"
+msgstr "Kan ikke finde scriptet rankmirrors"
+
+#: src/rank_mirrors.py:61
+msgid "Couldn't execute auto mirroring selection"
+msgstr "Kunne ikke køre automatisk valg af filspejle"
+
+#: src/show_message.py:53
+msgid "Manjaro Installer - Error"
+msgstr "Manjaro Installer - Fejl"
+
+#: src/show_message.py:65
+msgid "Manjaro Installer - Warning"
+msgstr "Manjaro Installer - Advarsel"
+
+#: src/show_message.py:77
+msgid "Manjaro Installer - Information"
+msgstr "Manjaro Installer - Information"
+
+#: src/show_message.py:88
+msgid "Manjaro Installer - Confirmation"
+msgstr "Manjaro installationsprogram - bekræftelse"
+
+#: src/slides.py:94 src/slides.py:109
+msgid ""
+"Installation finished!\n"
+"Do you want to restart your system now?"
+msgstr "Installationen er fuldført!\nØnsker du at genstarte dit system nu?"
+
+#: src/slides.py:102
+msgid "Installing Manjaro..."
+msgstr "Installerer Manjaro..."
+
+#: src/slides.py:107
+msgid "Please wait..."
+msgstr "Vent venligst..."
+
+#: src/slides.py:197
+msgid ""
+"IMPORTANT: There may have been a problem with the Grub(2) bootloader\n"
+"installation which could prevent your system from booting properly. Before\n"
+"rebooting, you may want to verify whether or not GRUB(2) is installed and\n"
+"configured. The Arch Linux Wiki contains troubleshooting information:\n"
+"\thttps://wiki.archlinux.org/index.php/GRUB\n"
+"\n"
+"Would you like to view the wiki page now?"
+msgstr "Der kan have været et problem med installation af Grub(2)-bootloaderen,\nhvilket kunne forhindre, at dit system starter ordentligt op. Inden du\ngenstarter, må du hellere efterse, om Grub(2) er installeret og\nopsat. Arch Linux-wikien indeholder oplysninger til fejlfinding:\n⇥https://wiki.archlinux.org/index.php/GRUB\n\nØnsker du at kigge på wiki-siden nu?"
+
+#: src/slides.py:234
+msgid "Do you want to retry?"
+msgstr "Ønsker du at forsøge igen?"
+
+#: src/timezone.py:111
+msgid "Where are you?"
+msgstr "Hvor er du?"
+
+#: src/timezone.py:116 ui/timezone.ui:35
+msgid "Zone:"
+msgstr "Zone:"
+
+#: src/timezone.py:120 ui/timezone.ui:78
+msgid "Region:"
+msgstr "Region:"
+
+#: src/timezone.py:124 ui/timezone.ui:104
+msgid "Use Network Time Protocol for clock synchronization:"
+msgstr "Anvend Network Time Protocol til synkronisering af uret:"
+
+#: src/timezone.py:135
+#, python-format
+msgid "location changed to : %s"
+msgstr "Placering ændret til : %s"
+
+#: src/timezone.py:223
+msgid "Can't autodetect timezone coordinates"
+msgstr "Kan ikke registrere tidszonekoordinater automatisk"
+
+#: src/timezone.py:283
+msgid "Stopping timezone threads..."
+msgstr "Stopper tidszonetråde..."
+
+#: src/timezone.py:397
+msgid "Can't get the country code used to create a pacman mirrorlist"
+msgstr "Kan ikke indlæse landekoden til generering af liste over spejle til pacman"
+
+#: src/user_info.py:92 ui/user_info.ui:35
+msgid "Your name:"
+msgstr "Dit navn:"
+
+#: src/user_info.py:96 ui/user_info.ui:206
+msgid "Your name"
+msgstr "Dit navn"
+
+#: src/user_info.py:100 ui/user_info.ui:328
+msgid "Hostname"
+msgstr "Værtsnavn"
+
+#: src/user_info.py:104 ui/user_info.ui:405
+msgid "Your computer's name:"
+msgstr "Din computers navn:"
+
+#: src/user_info.py:108 ui/user_info.ui:50
+msgid "Pick a username:"
+msgstr "Vælg et brugernavn:"
+
+#: src/user_info.py:112 ui/user_info.ui:250
+msgid "Username"
+msgstr "Brugernavn"
+
+#: src/user_info.py:116 ui/user_info.ui:65
+msgid "Choose a password:"
+msgstr "Vælg en adgangskode:"
+
+#: src/user_info.py:120 src/user_info.py:136 ui/user_info.ui:103
+#: ui/user_info.ui:573
+msgid "Password"
+msgstr "Adgangskode"
+
+#: src/user_info.py:128 src/user_info.py:144 ui/user_info.ui:149
+#: ui/user_info.ui:634
+msgid "Confirm password"
+msgstr "Bekræft adgangskode"
+
+#: src/user_info.py:132 ui/user_info.ui:611
+msgid "Choose a root password:"
+msgstr "Vælg root-adgangskode:"
+
+#: src/user_info.py:140 ui/user_info.ui:684
+msgid "Confirm root password:"
+msgstr "Bekræft root-adgangskode:"
+
+#: src/user_info.py:148
+msgid "Its name as it appears to other computers."
+msgstr "Dens navn, som det vises for andre computere."
+
+#: src/user_info.py:152
+msgid "You must enter a name"
+msgstr "Du skal indtaste et navn"
+
+#: src/user_info.py:156
+msgid "You must enter a username"
+msgstr "Du skal indtaste et brugernavn"
+
+#: src/user_info.py:160 src/user_info.py:164
+msgid "You must enter a password"
+msgstr "Du skal indtaste en adgangskode"
+
+#: src/user_info.py:168 ui/user_info.ui:473
+msgid "Log in automatically"
+msgstr "Log ind automatisk"
+
+#: src/user_info.py:169 ui/user_info.ui:490
+msgid "A password is required to log in"
+msgstr "Der kræves adgangskode for at logge ind"
+
+#: src/user_info.py:170 ui/user_info.ui:518
+msgid "Encrypt home folder"
+msgstr "Krypter home-mappe"
+
+#: src/user_info.py:172
+msgid "Who are you?"
+msgstr "Hvem er du?"
+
+#: src/user_info.py:180 ui/user_info.ui:544
+msgid "Show root password"
+msgstr "Vis root-adgangskode"
+
+#: src/user_info.py:183 ui/user_info.ui:439
+msgid "Use a root password"
+msgstr "Anvend root-adgangskode"
+
+#: src/user_info.py:252
+msgid ""
+"Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
+"\n"
+msgstr "Manjaro vil anvende eCryptfs til at kryptere din home-mappe. Beklageligvis er eCryptfs ikke god til at håndtere alrige spredte filer.\n"
+
+#: src/user_info.py:253
+msgid ""
+"Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
+"\n"
+msgstr "Bare rolig: I de fleste sammenhænge udgør denne svaghed ikke et problem.\n"
+
+#: src/user_info.py:254
+msgid ""
+"Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
+"\n"
+msgstr "En populær, men ikke særligt fornuftig anvendelse af eCryptfs er at kryptere en mappe til BitTorrent-downloads - hvilket kræver, at eCryptfs følgende skal håndtere fragmenterede filer på 10 GB eller mere, hvilket kan give en flaskehals for disken.\n\n"
+
+#: src/user_info.py:255
+msgid ""
+"A simple workaround is to place sparse files in an unencrypted .Public directory\n"
+"\n"
+msgstr "En enkel løsning på dette problem er at placere disse i en ukrypteret .Public-mappe\n\n"
+
+#: src/user_info.py:256
+msgid ""
+"Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
+"\n"
+msgstr "Se https://wiki.archlinux.org/index.php/ECryptfs for mere detaljeret information\n\n\n\n"
+
+#: src/user_info.py:257
+msgid "Are you sure you want to encrypt your home directory?\n"
+msgstr "Er du sikker på, at du ønsker at kryptere din home-partition?\n"
+
+#: src/user_info.py:345
+msgid "Invalid characters entered"
+msgstr "Der er indtastet ugyldige tegn"
+
+#: src/user_info.py:349
+msgid "Username can't contain dots"
+msgstr "Brugernavn kan ikke indeholde punktum"
+
+#: src/user_info.py:353
+msgid "Too many characters"
+msgstr "For mange tegn"
+
+#: ui/bootloader.ui:69
+msgid "What is your boot system type?"
+msgstr "Hvilket opstartssystem anvender computeren?"
+
+#: ui/bootloader.ui:98
+msgid "BIOS (common)"
+msgstr "BIOS (almindeligt)"
+
+#: ui/bootloader.ui:120
+msgid "x86_64 UEFI"
+msgstr "x86_64 UEFI"
+
+#: ui/bootloader.ui:142
+msgid "i386 UEFI"
+msgstr "i386 UEFI"
+
+#: ui/bootloader.ui:169
+msgid "Choose 'Cancel' if you don't want to install a boot loader"
+msgstr "Tryk 'Fortryd', hvis du ikke ønsker at installere en bootloader"
+
+#: ui/check.ui:29
+msgid ""
+"<span weight=\"bold\" size=\"large\">For best results, please ensure that "
+"this computer:</span>"
+msgstr "<span weight=\"bold\" size=\"large\">For at få de bedste resultater skal du sikre dig, at denne computer:</span>"
+
+#: ui/check.ui:108
+msgid ""
+"(*) This highly depends on which desktop environment you choose, so you "
+"might need more space."
+msgstr "(*) Dette afhænger i høj grad af det skrivebordsmiljø der vælges, så der kan blive brug for mere plads."
+
+#: ui/installation_advanced.ui:84
+msgid "Partition table type:"
+msgstr "Type partitionstabel:"
+
+#: ui/installation_advanced.ui:155
+msgid "Edit partition"
+msgstr "Rediger partition"
+
+#: ui/installation_advanced.ui:317 ui/installation_advanced.ui:774
+msgid "Encryption options..."
+msgstr "Krypteringsmuligheder..."
+
+#: ui/installation_advanced.ui:383
+msgid "Create partition"
+msgstr "Opret partition"
+
+#: ui/installation_advanced.ui:423
+msgid "Location:"
+msgstr "Geografisk placering:"
+
+#: ui/installation_advanced.ui:607
+msgid "MB"
+msgstr "MB"
+
+#: ui/installation_advanced.ui:895
+msgid "New Partition Table"
+msgstr "Ny partitionstabel"
+
+#: ui/installation_advanced.ui:948
+msgid "Mount Checklist:"
+msgstr "Monteringscheckliste:"
+
+#: ui/installation_advanced.ui:1103
+msgid "LVM..."
+msgstr "LVM..."
+
+#: ui/installation_advanced.ui:1256
+msgid "LUKS volume name:"
+msgstr "LUKS-enhedsnavn:"
+
+#: ui/installation_advanced.ui:1270
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: ui/installation_advanced.ui:1284
+msgid "Confirm password:"
+msgstr "Bekræft adgangskode:"
+
+#: ui/installation_advanced.ui:1313
+msgid "Use LUKS encryption: "
+msgstr "Anvend LUKS-kryptering:"
+
+#: ui/installation_alongside.ui:16
+msgid ""
+"<span size=\"large\">Choose which OS you want to install Manjaro next "
+"to</span>"
+msgstr "<span size=\"large\">Vælg det OS, du ønsker at installere Manjaro sammen med</span>"
+
+#: ui/installation_alongside.ui:90
+msgid "Choose the new size"
+msgstr "Vælg ny størrelse"
+
+#: ui/installation_alongside.ui:157
+msgid "Other OS"
+msgstr "Andet OS"
+
+#: ui/installation_alongside.ui:169
+msgid "Manjaro"
+msgstr "Manjaro"
+
+#: ui/installation_alongside.ui:193 ui/installation_alongside.ui:205
+#: ui/slides.ui:74
+msgid "label"
+msgstr "mærkat"
+
+#: ui/installation_ask.ui:58
+msgid ""
+"<span weight=\"light\" size=\"small\">Warning: This will delete all "
+"programs, documents, photos, music and any other files on your disk</span>"
+msgstr "<span weight=\"light\" size=\"small\">Advarsel: Dette vil slette alle programmer, dokumenter, fotos, musik og alle andre filer på din disk</span>"
+
+#: ui/installation_ask.ui:70
+msgid "Encrypts the new Manjaro installation for better security"
+msgstr "Krypter den nye Manjaro-installation for større sikkerhed"
+
+#: ui/installation_ask.ui:91
+msgid ""
+"<span weight=\"light\" size=\"small\">You will be asked for the encryption "
+"key in the next step</span>"
+msgstr "<span weight=\"light\" size=\"small\">Du vil blive bedt om en krypteringsnøgle ved næste skridt</span>"
+
+#: ui/installation_ask.ui:102
+msgid "Use LVM with the new Manjaro installation"
+msgstr "Brug LVM med den nye Manjaro-installation"
+
+#: ui/installation_ask.ui:123
+msgid ""
+"<span weight=\"light\" size=\"small\">This will set up LVM allowing you to "
+"make snapshots and change partition sizes in a straightforward way</span>"
+msgstr "<span weight=\"light\" size=\"small\">Dette vil opsætte LVM, som gør det nemt at lave snapshots og ændre partitionsstørelse</span>"
+
+#: ui/installation_ask.ui:155
+msgid ""
+"<span weight=\"light\" size=\"small\">This will setup your /home directory "
+"in a different partition or volume.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Dette vil opsætte din /home-mappe på en anden partition eller enhed.</span>"
+
+#: ui/installation_ask.ui:166
+msgid "Install alongside other OSes"
+msgstr "Installer ved siden af andre OS'er"
+
+#: ui/installation_ask.ui:192
+msgid ""
+"<span weight=\"light\" size=\"small\">With this option you will be "
+"installing Manjaro alongside one of the other OSes you already have "
+"installed.</span>"
+msgstr "<span weight=\"light\" size=\"small\">På denne måde vil du installere Manjaro ved siden af et af de andre OS'er, du allerede har installeret.</span>"
+
+#: ui/installation_ask.ui:204
+msgid "Manage your partitions and choose where to install Manjaro (advanced)"
+msgstr "Opsæt dine partitioner og vælg, hvor du ønsker at installere Manjaro (avanceret)"
+
+#: ui/installation_ask.ui:230
+msgid ""
+"<span weight=\"light\" size=\"small\">You will be able to create/delete "
+"partitions, choose where to install Manjaro and also choose additional mount"
+" points.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Her vil du kunne oprette/slette partitioner, vælge hvor du ønsker at installere Manjaro og også vælge yderligere monteringspunkter.</span>"
+
+#: ui/installation_automatic.ui:38
+msgid ""
+"<b>WARNING! This installation mode will overwrite everything on your "
+"drive!</b>"
+msgstr "<b>ADVARSEL! Denne installationstype overskriver alt på din disk!</b>"
+
+#: ui/language.ui:26
+msgid "<span weight=\"bold\">Please choose your language:</span>"
+msgstr "<span weight=\"bold\">Vælg dit sprog:</span>"
+
+#: ui/language.ui:89
+msgid ""
+"<span weight='bold'>Notice: The Thus Installer is beta software.</span>\n"
+"\n"
+"Thus is pre-release beta software that is under active development. It does not yet properly handle RAID, btrfs subvolumes, or other advanced setups. Please proceed with caution as data loss is possible! \n"
+"\n"
+"If you find any bug, please, visit <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
+msgstr "<span weight='bold'>Bemærk:Thus-installeren er beta-software.</span>\n\nDette er beta-software i pre-release-stadiet, som er under aktiv udvikling. Den håndterer endnu ikke RAID, btrfs-underenheder eller andre avancerede opsætninger. Fortsæt med forsigtighed, da datatab er en mulighed!\n\nHvis du finder fejl, bedes du besøge <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
+
+#: ui/thus.ui:37
+msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
+msgstr "<span weight=\"bold\" size=\"large\">Velkommen til Manjaro</span>"
+
+#: ui/user_info.ui:119 ui/user_info.ui:589
+msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
+msgstr "<small><span color=\"darkgreen\">Stærk adgangskode</span></small>"
+
+#: ui/user_info.ui:177 ui/user_info.ui:662
+msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
+msgstr "<small><span color=\"darkred\">Du skal indtaste en adgangskode</span></small>"
+
+#: ui/user_info.ui:278
+msgid "<small><span color=\"darkred\">You must enter a username</span></small>"
+msgstr "<small><span color=\"darkred\">Du skal indtaste et brugernavn</span></small>"
+
+#: ui/user_info.ui:356
+msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
+msgstr "<small><span color=\"darkred\">Du skal indtaste et navn</span></small>"
+
+#: ui/user_info.ui:378
+msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
+msgstr "<span size=\"small\">Dens navn, som det vises for andre computere.</span>"
