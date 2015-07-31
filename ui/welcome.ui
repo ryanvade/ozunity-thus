@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
 <interface>
-  <!-- interface-requires gtk+ 3.0 -->
+  <requires lib="gtk+" version="3.0"/>
   <object class="GtkAlignment" id="welcome">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="hexpand">True</property>
     <property name="left_padding">10</property>
     <property name="right_padding">10</property>
-    <style>
-      <class name="welcome"/>
-    </style>
     <child>
       <object class="GtkBox" id="box1">
         <property name="visible">True</property>
@@ -148,7 +146,7 @@
           <object class="GtkLabel" id="infowelcome_label">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">You can try Manjaro without modify your hard drive, just click on "Try it".
+            <property name="label" translatable="yes">You can try Oz Unity without modify your hard drive, just click on "Try it".
 If you want to install the system to your PC, use one of the two installer options.</property>
             <property name="justify">center</property>
             <attributes>
@@ -163,5 +161,8 @@ If you want to install the system to your PC, use one of the two installer optio
         </child>
       </object>
     </child>
+    <style>
+      <class name="welcome"/>
+    </style>
   </object>
 </interface>

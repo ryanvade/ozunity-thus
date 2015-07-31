@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.16.1 -->
+<!-- Generated with glade 3.18.3 -->
 <interface>
   <requires lib="gtk+" version="3.10"/>
   <object class="GtkBox" id="installation_automatic">
@@ -34,10 +34,10 @@
           <object class="GtkLabel" id="text_automatic">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="xalign">0.10000000149011612</property>
             <property name="label" translatable="yes">&lt;b&gt;WARNING! This installation mode will overwrite everything on your drive!&lt;/b&gt;</property>
             <property name="use_markup">True</property>
             <property name="wrap">True</property>
+            <property name="xalign">0.10000000149011612</property>
           </object>
           <packing>
             <property name="expand">True</property>
@@ -56,7 +56,7 @@
       <object class="GtkLabel" id="text_automatic2">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Please choose the drive where you want to install Manjaro
+        <property name="label" translatable="yes">Please choose the drive where you want to install Oz Unity
 and click the button below to start the process.</property>
         <property name="use_markup">True</property>
         <property name="wrap">True</property>
@@ -92,8 +92,8 @@ and click the button below to start the process.</property>
             <property name="can_focus">False</property>
             <property name="halign">end</property>
             <property name="valign">center</property>
-            <property name="xalign">0</property>
             <property name="label" translatable="yes">Select drive:</property>
+            <property name="xalign">0</property>
           </object>
           <packing>
             <property name="expand">True</property>
@@ -164,8 +164,6 @@ and click the button below to start the process.</property>
               <packing>
                 <property name="left_attach">0</property>
                 <property name="top_attach">1</property>
-                <property name="width">1</property>
-                <property name="height">1</property>
               </packing>
             </child>
             <child>
@@ -178,8 +176,6 @@ and click the button below to start the process.</property>
               <packing>
                 <property name="left_attach">0</property>
                 <property name="top_attach">0</property>
-                <property name="width">1</property>
-                <property name="height">1</property>
               </packing>
             </child>
             <child>
@@ -219,8 +215,6 @@ and click the button below to start the process.</property>
               <packing>
                 <property name="left_attach">1</property>
                 <property name="top_attach">0</property>
-                <property name="width">1</property>
-                <property name="height">1</property>
               </packing>
             </child>
             <child>
@@ -249,8 +243,6 @@ and click the button below to start the process.</property>
               <packing>
                 <property name="left_attach">1</property>
                 <property name="top_attach">1</property>
-                <property name="width">1</property>
-                <property name="height">1</property>
               </packing>
             </child>
             <child>
@@ -266,8 +258,6 @@ and click the button below to start the process.</property>
               <packing>
                 <property name="left_attach">1</property>
                 <property name="top_attach">2</property>
-                <property name="width">1</property>
-                <property name="height">1</property>
               </packing>
             </child>
             <child>

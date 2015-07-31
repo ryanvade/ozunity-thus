@@ -61,6 +61,7 @@ BASE_DIR = os.path.dirname(__file__) or '.'
 SRC_DIR = os.path.join(BASE_DIR, 'src')
 sys.path.insert(0, SRC_DIR)
 
+# program classes
 import config
 
 import language
@@ -231,7 +232,7 @@ class Main(Gtk.Window):
         self.connect("delete-event", Gtk.main_quit)
         self.ui.connect_signals(self)
 
-        self.set_title(_('Manjaro Installer'))
+        self.set_title(_('Oz Unity Installer'))
         self.set_position(Gtk.WindowPosition.CENTER)
         self.set_resizable(False)
         self.set_size_request(MAIN_WINDOW_WIDTH, MAIN_WINDOW_HEIGHT)
